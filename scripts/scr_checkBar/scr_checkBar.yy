@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_checkBar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_checkBar",
+  "parent":{
+    "name":"Boss_Ai",
+    "path":"folders/Scripts/Boss_Ai.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
