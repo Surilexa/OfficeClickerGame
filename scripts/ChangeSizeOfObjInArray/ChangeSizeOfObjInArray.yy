@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ChangeSizeOfObjInArray",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ChangeSizeOfObjInArray",
+  "parent":{
+    "name":"Score",
+    "path":"folders/Scripts/Score.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

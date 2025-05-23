@@ -2,6 +2,7 @@
 // You can write your code in this editor
 global.currentScore = 0;
 global.scoreMultiplier = 1;
+global.clickMultiplier = 1;
 
 stressLevel = 20;
 

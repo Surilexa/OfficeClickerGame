@@ -16,7 +16,7 @@ lastSpawnedPerson = noone;
 alarm[0] = 60* 2;
 
 
-listOfSpawnablePeople = [obj_boss_ai, obj_vp_ai, obj_coworker_ai];
+listOfSpawnablePeople = [obj_boss_ai, obj_vp_ai, obj_AI];
 
 listOfWeightedSpawns = [5,20,75]
 
