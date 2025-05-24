@@ -26,12 +26,14 @@ if(!loadRef){
 
 
 if(visible){
-	if(mouse_wheel_down()){
+	global.canScrollMenu = device_mouse_x_to_gui(0) > menux1 && device_mouse_x_to_gui(0) < menux2
+			&& device_mouse_y_to_gui(0) > menuy1 && device_mouse_y_to_gui(0) < menuy2;
+	if(mouse_wheel_down() && global.canScrollMenu){
 		firstButtonShown ++;
 		firstButtonShown = clamp(firstButtonShown, 0, array_length(arrayOfButtons)-1);
 		show_debug_message(string(firstButtonShown));
 	}
-	if(mouse_wheel_up()){
+	if(mouse_wheel_up() && global.canScrollMenu){
 		firstButtonShown--;
 		firstButtonShown = clamp(firstButtonShown, 0, array_length(arrayOfButtons)-1);
 		show_debug_message(string(firstButtonShown));
@@ -46,3 +48,7 @@ visible = global.buyMenuOpen;
 if(keyboard_check_pressed(vk_space)){
 	global.buyMenuOpen = !global.buyMenuOpen;
 }
+
+
+
+

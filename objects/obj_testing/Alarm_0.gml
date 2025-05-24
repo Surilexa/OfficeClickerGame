@@ -5,9 +5,14 @@
 
 
 //show_debug_message(string(camera_get_view_x(cam) + string(camera_get_view_y(cam))))
+//show_debug_message(string(camera_get_view_x(cam) * global.zoom_level));
 
-show_debug_message(string(mouse_x) + "   " + string(mouse_y))
+//show_debug_message(string(camera_get_view_y(cam) * global.zoom_level));
 
-alarm[0] = 60;
+alarm[0] = 60 * 2;
+
+
+//show_debug_message(string(obj_roaming_AI.dir));
+//show_debug_message(string(obj_roaming_AI.previousX));
 
 

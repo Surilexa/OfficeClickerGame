@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"Gym",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"Gym",
+  "out_columns":23,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"RPGMaker",
+    "path":"folders/Tile Sets/RPGMaker.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_8_Gym_48x48",
+    "path":"sprites/_8_Gym_48x48/_8_Gym_48x48.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":48,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":48,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":528,
+}

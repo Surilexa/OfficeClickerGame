@@ -32,8 +32,9 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"ObjToPurchase","filters":[],"listItems":[],"multiselect":false,"name":"ObjToPurchase","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"SpriteLogo","filters":[],"listItems":[],"multiselect":false,"name":"SpriteLogo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"price","filters":[],"listItems":[],"multiselect":false,"name":"price","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"priceIncrease","filters":[],"listItems":[],"multiselect":false,"name":"priceIncrease","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"price","filters":[],"listItems":[],"multiselect":false,"name":"price","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"basePrice","filters":[],"listItems":[],"multiselect":false,"name":"basePrice","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"Sprite","filters":[],"listItems":[],"multiselect":false,"name":"Sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_coworker","path":"sprites/spr_coworker/spr_coworker.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_coworker","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

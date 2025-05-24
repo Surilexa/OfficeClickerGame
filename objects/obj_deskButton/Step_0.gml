@@ -20,5 +20,6 @@ else{
 }
 if(mouse_check_button_released(mb_left) && pressed){
 	//ChangeSizeOfObjInArray(playerObjectArray, 1);
+	pressed = false;
 	IncreaseScore(1, "Click");
 }

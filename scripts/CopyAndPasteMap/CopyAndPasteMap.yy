@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CopyAndPasteMap",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CopyAndPasteMap",
+  "parent":{
+    "name":"TileSetMap",
+    "path":"folders/Scripts/TileSetMap.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

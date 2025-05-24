@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"FindRandomPath",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"FindRandomPath",
+  "parent":{
+    "name":"Boss_Ai",
+    "path":"folders/Scripts/Boss_Ai.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"Decoration2",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"Decoration2",
+  "out_columns":42,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"RPGMaker",
+    "path":"folders/Tile Sets/RPGMaker.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"_19_Hospital_48x48",
+    "path":"sprites/_19_Hospital_48x48/_19_Hospital_48x48.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":48,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":48,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":1760,
+}

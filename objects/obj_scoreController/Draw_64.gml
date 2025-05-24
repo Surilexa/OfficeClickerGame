@@ -6,4 +6,4 @@ draw_set_valign(fa_top);
 draw_set_font(f_Score);
 draw_set_color(c_orange);
 
-draw_text(30, 30, "$$ " + string(global.currentScore));
+draw_text(30, 30, "$$ " + string(floor(global.currentScore)));

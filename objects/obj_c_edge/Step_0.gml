@@ -1,4 +1,5 @@
-if(!global.buyMenuOpen){
+if(!global.canScrollMenu){
+	border_margin = 400 * global.zoom_level;
 	var zoom_speed = 0.1;
 	var min_zoom = 1;
 	var max_zoom = room_height/base_height;
@@ -32,6 +33,8 @@ if(!global.buyMenuOpen){
 	var new_cam_x = mouse_world_x - mx_gui * scale;
 	var new_cam_y = mouse_world_y - my_gui * scale;
 
+if(mouse_check_button(mb_middle) || mouse_check_button(mb_right)){
+
 
 	if (mx_gui < border_margin) {
 	    new_cam_x -= scroll_speed;
@@ -45,7 +48,7 @@ if(!global.buyMenuOpen){
 	if (my_gui > new_view_h - border_margin) {
 	    new_cam_y += scroll_speed;
 	}
-
+}
 	new_cam_x = clamp(new_cam_x, 0, room_width - new_view_w);
 	new_cam_y = clamp(new_cam_y, 0, room_height - new_view_h);
 

@@ -17,3 +17,9 @@ menuHeight = 713;
 buttonHeightOffset = 100;
 
 global.buyMenuOpen = false;
+
+menux1 = 1920 * .66;
+menux2 = 2500;
+
+menuy1 = -10;
+menuy2 = 720;
