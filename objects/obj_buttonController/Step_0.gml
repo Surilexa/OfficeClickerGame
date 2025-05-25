@@ -5,7 +5,7 @@ if(!loadRef){
 	//grab all buttons in the scene
 	for(var i = 0; i < instance_number(obj_buyButton); i++){
 		array_push(arrayOfButtons, instance_find(obj_buyButton, i));
-		arrayOfButtons[i].x = x + 550;
+		arrayOfButtons[i].x = x + offsetX;
 	}
 	
 	//sort by price
@@ -25,7 +25,7 @@ if(!loadRef){
 }
 
 
-if(visible){
+if(global.buyMenuOpen){
 	global.canScrollMenu = device_mouse_x_to_gui(0) > menux1 && device_mouse_x_to_gui(0) < menux2
 			&& device_mouse_y_to_gui(0) > menuy1 && device_mouse_y_to_gui(0) < menuy2;
 	if(mouse_wheel_down() && global.canScrollMenu){
@@ -39,7 +39,7 @@ if(visible){
 		show_debug_message(string(firstButtonShown));
 	}
 	for(var i = firstButtonShown; i < array_length(arrayOfButtons); i++){
-		arrayOfButtons[i].y = (i - firstButtonShown) * buttonHeightOffset + 60;
+		arrayOfButtons[i].y = (i - firstButtonShown) * buttonHeightOffset + offsetY;
 		//show_debug_message(array_length(arrayOfButtons));
 	}
 }

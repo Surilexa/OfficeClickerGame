@@ -1,22 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_set_color(c_white);
-//draw_set_alpha(0);
-/*if(global.zoom_level > 1){
-	draw_rectangle(((x + view_x +140) * global.zoom_level) - view_x, 
-				((y + view_y+10) * global.zoom_level) - view_y, 
-				((x + view_x + 370) * global.zoom_level) - view_x, 
-				((y + view_y +90) * global.zoom_level) - view_y, false);
-}
-else{
-	draw_rectangle((x + view_x +140), 
-				(y + view_y+10), 
-				(x + view_x + 370), 
-				(y + view_y +90), false);
-}*/
+draw_sprite_ext(spr_buy,img_index,x,y,baseXScale,baseYScale,0,c_white,1);
 
-draw_rectangle(room_x + (140 * global.zoom_level), room_y +(10 * global.zoom_level) ,room_x +(370 * global.zoom_level) ,room_y + (90 * global.zoom_level), false);
+draw_text_ext_transformed(x -(8*baseXScale) + (8 * global.zoom_level),y-(8 * baseYScale)+ (8 * global.zoom_level), "$ "+string(price),1,
+							10000,global.zoom_level-.3,global.zoom_level-.3,0);
 
+//draw_rectangle(x - (8 * baseXScale), y - (8 * baseYScale),x + (8 * baseXScale), y + (8 * baseYScale), true);
 
 

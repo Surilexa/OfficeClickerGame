@@ -4,51 +4,17 @@ if(!loadRef){
 	loadRef = true;
 	//grab all buttons in the scene
 	for(var i = 0; i < instance_number(obj_buyRoomButton); i++){
-		array_push(arrayOfButtons, instance_find(obj_buyRoomButton, i));
-		arrayOfButtons[i].x = x + 550;
-	}
-	
-	//sort by price
-	for (var i = 0; i < array_length(arrayOfButtons) - 1; i++) {
-	    for (var j = 0; j <  array_length(arrayOfButtons) - i - 1; j++) {
-	        if (arrayOfButtons[j].price > arrayOfButtons[i].price) {
-	            // Swap instances
-	            var temp = arrayOfButtons[j];
-	            arrayOfButtons[j] = arrayOfButtons[j + 1];
-	            arrayOfButtons[j + 1] = temp;
-	        }
-	    }
-	}
-	for(var i = 0; i < array_length(arrayOfButtons); i++){
-		arrayOfButtons[i].arrayPosition = i;
+		var instanceFind = instance_find(obj_buyRoomButton, i);
+		array_push(arrayOfButtons, instanceFind);
+		if(i == 0){
+			instanceFind.previousPurchased = true;
+			array_push(global.RoomsPurchased, true);
+		}
+		else{
+			array_push(global.RoomsPurchased, false);
+		}
 	}
 }
-
-
-if(visible){
-	global.canScrollMenu = device_mouse_x_to_gui(0) > menux1 && device_mouse_x_to_gui(0) < menux2
-			&& device_mouse_y_to_gui(0) > menuy1 && device_mouse_y_to_gui(0) < menuy2;
-	if(mouse_wheel_down() && global.canScrollMenu){
-		firstButtonShown ++;
-		firstButtonShown = clamp(firstButtonShown, 0, array_length(arrayOfButtons)-1);
-		show_debug_message(string(firstButtonShown));
-	}
-	if(mouse_wheel_up() && global.canScrollMenu){
-		firstButtonShown--;
-		firstButtonShown = clamp(firstButtonShown, 0, array_length(arrayOfButtons)-1);
-		show_debug_message(string(firstButtonShown));
-	}
-	for(var i = firstButtonShown; i < array_length(arrayOfButtons); i++){
-		arrayOfButtons[i].y = (i - firstButtonShown) * buttonHeightOffset + 60;
-		//show_debug_message(array_length(arrayOfButtons));
-	}
-}
-visible = global.buyMenuOpen && global.buyMenuRoomTab;
-
-if(keyboard_check_pressed(vk_space)){
-	global.buyMenuOpen = !global.buyMenuOpen;
-}
-
 
 
 

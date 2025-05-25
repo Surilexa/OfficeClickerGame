@@ -9,29 +9,24 @@ img_index = 0;
 //alarm[0] = 60;
 
 
-baseXScale = 1.5;
-baseYScale = 1.5;
-
-currentXScale = baseXScale;
-currentYScale = baseYScale;
-
-totalPurchased = 0;
-cam = view_camera[0];
-
-view_x = camera_get_view_x(cam);
-view_y = camera_get_view_y(cam);
+baseXScale = 5 * global.zoom_level;
+baseYScale = 4 * global.zoom_level;
 
 isColliding = false;
 
-rectx = x + view_x +140;
-rectx2 = x + view_x + 370;
-recty =  y + view_y+10;
-recty2 = y + view_y +90
+ox1 = 140;
+ox2 = 300;
+oy1 = 10;
+oy2 = 90;
 
-base = basePrice;
-room_x= 0;
-room_y = 0;
+pricexOffset = 230;
+priceyOffset = 50;
+priceXScale = 144/16;
+priceYScale = 64/16
 
-spawnRef = instance_find(obj_NPCSpawn, 0);
 
-LimitOnScreen = 10;
+setUp = true;
+
+alarm[0] = 100;
+
+//show_debug_message(string(x) + "  " +string(y));

@@ -11,7 +11,7 @@ else{
 	visible = global.buyMenuOpen;
 }
 
-if(global.currentScore >= price){
+if(!isColliding){
 	img_index = 0;
 }
 else{
@@ -41,9 +41,9 @@ room_x = camera_get_view_x(view_camera[0]) + (x / display_get_gui_width()) * cam
 room_y = camera_get_view_y(view_camera[0]) + (y / display_get_gui_height()) * camera_get_view_height(view_camera[0]);
 
 
-rectx = room_x + (140 * global.zoom_level);
-rectx2 = room_x +(370 * global.zoom_level);
-recty =  room_y +(10 * global.zoom_level);
-recty2 = room_y +(90 * global.zoom_level);
+rectx = room_x + (ox1 * global.zoom_level);
+rectx2 = room_x +(ox2 * global.zoom_level);
+recty =  room_y +(oy1 * global.zoom_level);
+recty2 = room_y +(oy2 * global.zoom_level);
 
 isColliding = rectx <= mouse_x && recty < mouse_y && rectx2 > mouse_x && recty2 > mouse_y;

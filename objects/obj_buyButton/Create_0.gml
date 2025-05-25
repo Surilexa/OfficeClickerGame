@@ -23,10 +23,20 @@ view_y = camera_get_view_y(cam);
 
 isColliding = false;
 
-rectx = x + view_x +140;
-rectx2 = x + view_x + 370;
-recty =  y + view_y+10;
-recty2 = y + view_y +90
+ox1 = 140;
+ox2 = 300;
+oy1 = 10;
+oy2 = 90;
+
+pricexOffset = 230;
+priceyOffset = 50;
+priceXScale = 144/16;
+priceYScale = 64/16
+
+rectx = x + view_x +ox1;
+rectx2 = x + view_x + ox2;
+recty =  y + view_y+oy1;
+recty2 = y + view_y +oy2;
 
 base = basePrice;
 room_x= 0;
