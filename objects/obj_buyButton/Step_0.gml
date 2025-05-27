@@ -1,10 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-view_x = camera_get_view_x(cam);
-view_y = camera_get_view_y(cam);
-
-if(arrayPosition < obj_buttonController.firstButtonShown 
-		|| arrayPosition > obj_buttonController.firstButtonShown + obj_buttonController.buttonRange){
+if(arrayPosition < obj_BuyMenuController.firstButtonShown 
+		|| arrayPosition > obj_BuyMenuController.firstButtonShown + obj_BuyMenuController.buttonRange){
 	visible = false;
 }
 else{
@@ -17,7 +14,7 @@ if(!isColliding){
 else{
 	img_index = 1;
 }
-canPurchase = global.currentScore >= price && CanBuyPerson(ObjToPurchase, RoomAmountNeeded);
+canPurchase = global.currentScore >= price && CanBuyPerson(ObjToPurchase);
 if(isColliding && visible){
 	if(mouse_check_button_released(mb_left)){
 		show_debug_message("buy");
@@ -28,7 +25,6 @@ if(isColliding && visible){
 			BuyPerson(ObjToPurchase,1);
 			if(LimitOnScreen >= totalPurchased){
 				var last = instance_create_layer(spawnRef.x,spawnRef.y, "Employees", ObjToPurchase);
-				last.sprite_index = Sprite;
 			}
 		}
 	}

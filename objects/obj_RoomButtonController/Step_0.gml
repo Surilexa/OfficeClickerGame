@@ -2,17 +2,18 @@
 // You can write your code in this editor
 if(!loadRef){
 	loadRef = true;
-	//grab all buttons in the scene
-	for(var i = 0; i < instance_number(obj_buyRoomButton); i++){
-		var instanceFind = instance_find(obj_buyRoomButton, i);
-		array_push(arrayOfButtons, instanceFind);
-		if(i == 0){
-			instanceFind.previousPurchased = true;
-			array_push(global.RoomsPurchased, true);
+	//spawning room buttons
+	for(var i = 0; i < (room_width/720)-1; i++){
+		for(var n = 0; n < (room_height/720)-1; n++){
+			if(i == 4 && n == 4){
+				continue;
+			}
+			global.RoomPlots[i,n] = false;
+			var last_instance = instance_create_layer(i*720 + 430, n*720 + 425,"RoomButtons", obj_buyRoomButton);
+			last_instance.plotXLocation = i;
+			last_instance.plotYLocation = n;
 		}
-		else{
-			array_push(global.RoomsPurchased, false);
-		}
+		SetSurroundingPlots(4,4,true);
 	}
 }
 

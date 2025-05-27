@@ -40,7 +40,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_selectRoom",
+    "path":"sprites/spr_selectRoom/spr_selectRoom.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

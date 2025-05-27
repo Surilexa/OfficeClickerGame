@@ -4,10 +4,7 @@
 visible = false;
 
 arrayPosition = 0;
-
 img_index = 0;
-//alarm[0] = 60;
-
 
 baseXScale = 1.5;
 baseYScale = 1.5;
@@ -39,11 +36,18 @@ rectx2 = x + view_x + ox2;
 recty =  y + view_y+oy1;
 recty2 = y + view_y +oy2;
 
-base = basePrice;
 room_x= 0;
 room_y = 0;
 
 spawnRef = instance_find(obj_NPCSpawn, 0);
 
-LimitOnScreen = InitLimit;
+//==============================
+//imported variables
+ObjToPurchase = obj_roaming_AI_General;
+SpriteLogo = spr_buyCoworker;
+LimitOnScreen = 0;
 canPurchase = false;
+price = 0;
+basePrice = price;
+
+alarm[0] = 2;

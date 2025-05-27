@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-visible = false;
+visible = true;
+
 
 arrayPosition = 0;
 
@@ -9,8 +10,8 @@ img_index = 0;
 //alarm[0] = 60;
 
 
-baseXScale = 5 
-baseYScale = 4
+baseXScale = 3 
+baseYScale = 3
 
 isColliding = false;
 
@@ -19,17 +20,14 @@ ox2 = 300;
 oy1 = 10;
 oy2 = 90;
 
-pricexOffset = 230;
-priceyOffset = 50;
-priceXScale = 144/16;
-priceYScale = 64/16
-
 
 setUp = true;
 
-alarm[0] = 30;
+alarm[0] = 1;
 
 textXScale = 40;
 textYScale = 15;
-priceLength = string_length(string(abs(price)));
+
+plotXLocation = 0;
+plotYLocation = 0;
 

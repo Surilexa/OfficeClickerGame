@@ -12,19 +12,13 @@ if(isColliding && visible){
 	if(mouse_check_button_released(mb_left)){
 		if(global.currentScore >= price){
 			global.currentScore -= price;
-			global.RoomsPurchased[RoomNumber] = true;
-			
-			obj_RoomButtonController.nextOffsetx = NextButtonXOffset;
-			obj_RoomButtonController.nextOffsety = NextButtonYOffset;
-			obj_RoomButtonController.alarm[0] = 1;
+			SetSurroundingPlots(plotXLocation,plotYLocation,true);
 			BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset);
 			UpdateNumberOfRoomsPurchased(prefixToPurchase);
+			
 			instance_destroy(self);
 		}
 	}
 }
-baseXScale = 4 * global.zoom_level;
-baseYScale = 3 * global.zoom_level;
-isColliding = x - (8 * baseXScale) < mouse_x && y - (8 * baseYScale) < mouse_y && x + (8 * baseXScale) > mouse_x && y + (8 * baseYScale) > mouse_y;
-
-textXScale = ((30 + (2*priceLength)) + global.zoom_level) * global.zoom_level;
+//isColliding = position_meeting(mouse_x, mouse_y, self);
+isColliding = x - (16 * baseXScale) < mouse_x && y - (16 * baseYScale) < mouse_y && x + (16 * baseXScale) > mouse_x && y + (16 * baseYScale) > mouse_y;

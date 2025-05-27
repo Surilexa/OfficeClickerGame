@@ -1,16 +1,13 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function CanBuyPerson(objToBuy, requiredRoomNumber){
-	if(requiredRoomNumber == 0){
-		return true;
-	}
+function CanBuyPerson(objToBuy){
+	
 	switch(objToBuy){
 		case(obj_roaming_AI_Lawyer):
-			return global.ComputerRoomNum >= requiredRoomNumber;
+			return global.ComputerRoomNum >= 1;
 		case(obj_roaming_AI_Chef):
-			return global.KitchenRoomNum >= requiredRoomNumber;
-		
+			return global.KitchenRoomNum >= 1;
 		default:
-			return false;
+			return true;
 	}
 }

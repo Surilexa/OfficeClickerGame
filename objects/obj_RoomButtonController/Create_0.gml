@@ -16,7 +16,6 @@ menuHeight = 713;
 
 buttonHeightOffset = 100;
 
-global.NumOfRoomsBought = 0;
 global.buyMenuRoomTab = false;
 
 menux1 = 1920 * .66;
@@ -26,7 +25,23 @@ menuy1 = -10;
 menuy2 = 720;
 
 global.RoomsPurchased = [];
-
+global.BuyRoomMode = false;
 
 nextOffsetx = 0;
 nextOffsety = 0;
+
+
+
+global.RoomPlots = [0,0];
+
+
+
+
+
+
+
+
+
+
+
+

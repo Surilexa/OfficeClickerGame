@@ -4,6 +4,5 @@
 
 //show_debug_message("Pos " + string(arrayPosition) + "   firstButton" + string(obj_buttonController.firstButtonShown))
 
-alarm[0] = 60;
-
+basePrice = price;
 
