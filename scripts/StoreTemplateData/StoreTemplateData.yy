@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"StoreTemplateData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"StoreTemplateData",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

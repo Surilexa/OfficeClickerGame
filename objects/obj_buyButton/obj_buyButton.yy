@@ -35,6 +35,8 @@
     {"$GMObjectProperty":"v1","%Name":"price","filters":[],"listItems":[],"multiselect":false,"name":"price","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"basePrice","filters":[],"listItems":[],"multiselect":false,"name":"basePrice","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"Sprite","filters":[],"listItems":[],"multiselect":false,"name":"Sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_coworker","path":"sprites/spr_coworker/spr_coworker.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_coworker","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"RoomAmountNeeded","filters":[],"listItems":[],"multiselect":false,"name":"RoomAmountNeeded","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"InitLimit","filters":[],"listItems":[],"multiselect":false,"name":"InitLimit","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

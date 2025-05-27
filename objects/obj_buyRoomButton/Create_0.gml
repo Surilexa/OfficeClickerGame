@@ -9,8 +9,8 @@ img_index = 0;
 //alarm[0] = 60;
 
 
-baseXScale = 5 * global.zoom_level;
-baseYScale = 4 * global.zoom_level;
+baseXScale = 5 
+baseYScale = 4
 
 isColliding = false;
 
@@ -27,6 +27,9 @@ priceYScale = 64/16
 
 setUp = true;
 
-alarm[0] = 100;
+alarm[0] = 30;
 
-//show_debug_message(string(x) + "  " +string(y));
+textXScale = 40;
+textYScale = 15;
+priceLength = string_length(string(abs(price)));
+

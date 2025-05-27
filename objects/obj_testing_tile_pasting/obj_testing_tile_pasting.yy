@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Chief_Bounds",
+  "%Name":"obj_testing_tile_pasting",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Chief_Bounds",
+  "name":"obj_testing_tile_pasting",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bounds",
-    "path":"folders/Objects/AI/Bounds.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_NPCBounds",
-    "path":"sprites/spr_NPCBounds/spr_NPCBounds.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

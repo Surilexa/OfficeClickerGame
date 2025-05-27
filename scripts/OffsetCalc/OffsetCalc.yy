@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"OffsetCalc",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"OffsetCalc",
+  "parent":{
+    "name":"Rooms",
+    "path":"folders/Scripts/Rooms.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

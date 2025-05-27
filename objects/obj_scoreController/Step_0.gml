@@ -4,3 +4,5 @@
 
 global.currentScore += blueCollarPrice * global.blueCollarWorkers/60;
 global.currentScore += lawyerPrice * global.Lawyers /60;
+global.currentScore += chefPrice * global.Chef / 60;
+global.currentScore += dogPrice * global.Dog / 60;

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"DuplicateInstance",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DuplicateInstance",
+  "parent":{
+    "name":"Rooms",
+    "path":"folders/Scripts/Rooms.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

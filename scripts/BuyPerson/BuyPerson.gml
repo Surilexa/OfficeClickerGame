@@ -7,6 +7,12 @@ function BuyPerson(ref, amount){
 			break;
 		case(obj_roaming_AI_Lawyer):
 			global.Lawyers += amount;
-			break;	
+			break;
+		case(obj_roaming_AI_Chef):
+			global.Chef += amount;
+			break;
+		case(obj_roaming_AI_Dog):
+			global.Dog += amount;
+			break;
 	}
 }

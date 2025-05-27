@@ -27,3 +27,4 @@ menuy2 = 720;
 offsetX = 410;
 offsetY = 90;
 
+alarm[0] = 60;

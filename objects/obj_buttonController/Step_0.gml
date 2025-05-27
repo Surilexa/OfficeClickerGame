@@ -8,17 +8,7 @@ if(!loadRef){
 		arrayOfButtons[i].x = x + offsetX;
 	}
 	
-	//sort by price
-	for (var i = 0; i < array_length(arrayOfButtons) - 1; i++) {
-	    for (var j = 0; j <  array_length(arrayOfButtons) - i - 1; j++) {
-	        if (arrayOfButtons[j].price > arrayOfButtons[i].price) {
-	            // Swap instances
-	            var temp = arrayOfButtons[j];
-	            arrayOfButtons[j] = arrayOfButtons[j + 1];
-	            arrayOfButtons[j + 1] = temp;
-	        }
-	    }
-	}
+	
 	for(var i = 0; i < array_length(arrayOfButtons); i++){
 		arrayOfButtons[i].arrayPosition = i;
 	}

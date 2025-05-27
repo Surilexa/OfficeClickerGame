@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"UpdateNumberOfRoomsPurchased",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"UpdateNumberOfRoomsPurchased",
+  "parent":{
+    "name":"Rooms",
+    "path":"folders/Scripts/Rooms.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

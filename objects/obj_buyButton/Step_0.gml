@@ -17,18 +17,15 @@ if(!isColliding){
 else{
 	img_index = 1;
 }
-
+canPurchase = global.currentScore >= price && CanBuyPerson(ObjToPurchase, RoomAmountNeeded);
 if(isColliding && visible){
 	if(mouse_check_button_released(mb_left)){
 		show_debug_message("buy");
-		if(global.currentScore >= price){
-			
+		if(canPurchase){
 			global.currentScore -= price;
 			totalPurchased++;
 			price = PriceIncrease(ObjToPurchase, totalPurchased, basePrice);
 			BuyPerson(ObjToPurchase,1);
-			
-			
 			if(LimitOnScreen >= totalPurchased){
 				var last = instance_create_layer(spawnRef.x,spawnRef.y, "Employees", ObjToPurchase);
 				last.sprite_index = Sprite;

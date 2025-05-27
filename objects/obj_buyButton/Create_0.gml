@@ -16,6 +16,7 @@ currentXScale = baseXScale;
 currentYScale = baseYScale;
 
 totalPurchased = 0;
+
 cam = view_camera[0];
 
 view_x = camera_get_view_x(cam);
@@ -44,4 +45,5 @@ room_y = 0;
 
 spawnRef = instance_find(obj_NPCSpawn, 0);
 
-LimitOnScreen = 10;
+LimitOnScreen = InitLimit;
+canPurchase = false;
