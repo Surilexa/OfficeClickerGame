@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"RoomPlacementUsingPlot",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"RoomPlacementUsingPlot",
+  "parent":{
+    "name":"Menu",
+    "path":"folders/Scripts/Rooms/Menu.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -8,12 +8,12 @@ function StoreTemplateData(layer_name){
 
 	// Store tile data
 	var temp_tiles = [];
-	for (var a = 0; a < map_h; a++) {
+	for (var a = 0; a < map_h+1; a++) {
 	    for (var b = 0; b < map_w; b++) {
 	        var tiledata = tilemap_get(tilemap_id, b, a);
 	        if (tiledata != 0) {
 	            array_push(temp_tiles, [tiledata, b, a]);
-				show_debug_message(string(tiledata));
+				//show_debug_message(string(tiledata));
 	        }
 	    }
 	}

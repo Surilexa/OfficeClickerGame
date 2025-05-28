@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_RoomButtonController",
+  "%Name":"obj_SpawnBuyRoomButtons",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_RoomButtonController",
+  "name":"obj_SpawnBuyRoomButtons",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controllers",
-    "path":"folders/Objects/Controllers.yy",
+    "name":"RoomMenu",
+    "path":"folders/Objects/Buttons/RoomMenu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"PasteInstanceData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PasteInstanceData",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

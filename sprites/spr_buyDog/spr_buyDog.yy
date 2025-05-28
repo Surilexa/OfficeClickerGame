@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Buy Buttons",
-    "path":"folders/Sprites/UI/Buy Buttons.yy",
+    "name":"Employees",
+    "path":"folders/Sprites/UI/Buy Buttons/Employees.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

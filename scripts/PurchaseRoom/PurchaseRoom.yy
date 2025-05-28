@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"PurchaseRoom",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PurchaseRoom",
+  "parent":{
+    "name":"Menu",
+    "path":"folders/Scripts/Rooms/Menu.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

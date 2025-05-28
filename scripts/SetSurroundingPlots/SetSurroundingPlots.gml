@@ -12,7 +12,7 @@ function SetSurroundingPlots(xvalue, yvalue, value){
 
             if (nx >= 0 && nx < rows && ny >= 0 && ny < cols) {
                 global.RoomPlots[nx][ny] = value;
-				show_debug_message("Plot: " + string(nx) + "  " + string(ny) + " set to " + string(value));
+				//show_debug_message("Plot: " + string(nx) + "  " + string(ny) + " set to " + string(value));
             }
         }
     }

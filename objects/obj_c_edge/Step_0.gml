@@ -2,7 +2,7 @@ if(!global.canScrollMenu){
 	border_margin = 400 * global.zoom_level;
 	var zoom_speed = 0.1;
 	var min_zoom = 1;
-	var max_zoom = room_height/base_height;
+	var max_zoom = room_width/base_width;
 
 	var cam = view_camera[0];
 	var cam_x = camera_get_view_x(cam);

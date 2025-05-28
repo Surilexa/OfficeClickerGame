@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"TabChange",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"TabChange",
+  "parent":{
+    "name":"Menu",
+    "path":"folders/Scripts/Rooms/Menu.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

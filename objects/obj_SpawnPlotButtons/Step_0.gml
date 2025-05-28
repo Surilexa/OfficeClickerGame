@@ -9,7 +9,7 @@ if(!loadRef){
 				continue;
 			}
 			global.RoomPlots[i,n] = false;
-			var last_instance = instance_create_layer(i*720 + 430, n*720 + 425,"RoomButtons", obj_buyRoomButton);
+			var last_instance = instance_create_layer(i*720 + 430, n*720 + 425,"RoomButtons", obj_buyPlotLocation);
 			last_instance.plotXLocation = i;
 			last_instance.plotYLocation = n;
 		}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"FindPlotReference",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"FindPlotReference",
+  "parent":{
+    "name":"Menu",
+    "path":"folders/Scripts/Rooms/Menu.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

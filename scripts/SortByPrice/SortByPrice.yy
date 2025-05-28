@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SortByPrice",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SortByPrice",
+  "parent":{
+    "name":"Menu",
+    "path":"folders/Scripts/Rooms/Menu.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

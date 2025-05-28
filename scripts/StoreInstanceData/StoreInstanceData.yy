@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"StoreInstanceData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"StoreInstanceData",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

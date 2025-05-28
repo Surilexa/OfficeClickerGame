@@ -7,7 +7,7 @@ if(global.buyMenuOpen){
 			&& device_mouse_y_to_gui(0) > menuy1 && device_mouse_y_to_gui(0) < menuy2;
 	if(mouse_wheel_down() && global.canScrollMenu){
 		firstButtonShown ++;
-		firstButtonShown = clamp(firstButtonShown, 0, array_length(arrayOfButtons)-1);
+		firstButtonShown = clamp(firstButtonShown, 0, array_length(arrayOfButtons)-buttonRange div 2);
 		show_debug_message(string(firstButtonShown));
 	}
 	if(mouse_wheel_up() && global.canScrollMenu){
@@ -39,6 +39,7 @@ isColliding = rectx <= mouse_x && recty < mouse_y && rectx2 > mouse_x && recty2 
 if(isColliding){
 	if(mouse_check_button_released(mb_left)){
 		global.buyMenuOpen = !global.buyMenuOpen;
+		global.buyMenuRoomOpen = false;
 	}
 	
 }

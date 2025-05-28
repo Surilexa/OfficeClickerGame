@@ -3,7 +3,6 @@
 arrayOfButtons = [];
 
 loadRef = false;
-
 show = false;
 
 
