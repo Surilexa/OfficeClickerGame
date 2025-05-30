@@ -22,9 +22,10 @@ global.buttonInfo = ds_map_create();
 //==========================================
 //ROOMS
 global.ReceptionRoomNum = 0;
-global.ComputerRoomNum = 0;
+global.CSRoomNum = 0;
 global.KitchenRoomNum = 0;
 global.CatRoomNum = 0;
 global.DemonRoomNum = 0;
+global.GymRoomNum = 0;
 
 //==========================================

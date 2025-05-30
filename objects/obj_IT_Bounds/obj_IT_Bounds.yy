@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_SpawnBuyRoomButtons",
+  "%Name":"obj_IT_Bounds",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_SpawnBuyRoomButtons",
+  "name":"obj_IT_Bounds",
   "overriddenProperties":[],
   "parent":{
-    "name":"RoomMenu",
-    "path":"folders/Objects/Buttons/RoomMenu.yy",
+    "name":"Bounds",
+    "path":"folders/Objects/AI/Bounds.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_NPCBounds",
+    "path":"sprites/spr_NPCBounds/spr_NPCBounds.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

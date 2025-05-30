@@ -20,8 +20,6 @@ target_y = y;
 
 moneyPerSecond = .2;
 
-alarm[2] = 60;
-
 alarm[0] = 60;
 queuePath = true;
 

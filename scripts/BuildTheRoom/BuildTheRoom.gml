@@ -11,6 +11,15 @@ function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset){
 			}
 			PasteInstanceData(global.ReceptionTemplateInfo_Instances, prefixToPurchase + string(global.ReceptionRoomNum) + "_objs",TemplateXOffset * 48,TemplateYOffset * 48);
 			global.ReceptionRoomNum++;
+			
+			break;
+		case("CS"):
+			for(var i = 0; i < array_length(global.CSTemplateInfo_Tiles); i++){
+				PasteTemplateData(global.CSTemplateInfo_Tiles[i], global.CSTileSetIDs[i], 48,48, 
+					prefixToPurchase + string(global.CSRoomNum) + string(i),TemplateXOffset,TemplateYOffset, false);
+			}
+			PasteInstanceData(global.CSTemplateInfo_Instances, prefixToPurchase + string(global.CSRoomNum) + "_objs",TemplateXOffset * 48,TemplateYOffset * 48);
+			global.CSRoomNum++;
 			break;
 		case("Demon"):
 			//show_debug_message("printing demon");
@@ -29,9 +38,19 @@ function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset){
 			}
 			//global.
 			PasteInstanceData(global.GymTemplateInfo_Instances, prefixToPurchase + string(global.GymRoomNum) + "_objs",TemplateXOffset * 48,TemplateYOffset * 48);
-			global.GymnRoomNum++;
+			global.GymRoomNum++;
 			break;
-		}
-	
-	
+			
+		case("Kitchen"):
+			//show_debug_message("printing kitchen");
+			for(var i = 0; i < array_length(global.KitchenTemplateInfo_Tiles); i++){
+				PasteTemplateData(global.KitchenTemplateInfo_Tiles[i], global.KitchenTileSetIDs[i], 48,48, 
+					prefixToPurchase + string(global.KitchenRoomNum) + string(i),TemplateXOffset,TemplateYOffset, false);
+				
+			}
+			PasteInstanceData(global.KitchenTemplateInfo_Instances, prefixToPurchase + string(global.KitchenRoomNum) + "_objs",TemplateXOffset * 48,TemplateYOffset * 48);
+			global.KitchenRoomNum++;
+			break;
+	}
+
 }

@@ -7,7 +7,6 @@ draw_sprite_ext(spr_buy, img_index,x+pricexOffset,y+priceyOffset,priceXScale,pri
 
 if(!canPurchase){
 	draw_set_color(c_red);
-	
 }
 else{
 	draw_set_color(c_white);

@@ -41,5 +41,4 @@ if(isColliding){
 		global.buyMenuOpen = !global.buyMenuOpen;
 		global.buyMenuRoomOpen = false;
 	}
-	
 }

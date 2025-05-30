@@ -55,3 +55,7 @@ if(mouse_check_button(mb_middle) || mouse_check_button(mb_right)){
 	camera_set_view_size(cam, new_view_w, new_view_h);
 	camera_set_view_pos(cam, new_cam_x, new_cam_y);
 }
+
+if(!global.buyMenuOpen && !global.buyMenuRoomOpen){
+	global.canScrollMenu = false;
+}

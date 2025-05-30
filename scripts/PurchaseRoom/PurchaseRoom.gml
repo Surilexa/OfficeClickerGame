@@ -11,14 +11,16 @@ function PurchaseRoom(){
 			BuildTheRoom(global.selectedRoom, placement[0]/48 , placement[1]/48);
 			SetSurroundingPlots(global.selectedPlot[0],global.selectedPlot[1], true);
 			show_debug_message(string(global.selectedRoom) + "  x: " + string(placement[0]) + "  y: " + string(placement[1]));
+			global.currentScore -= global.selectedPrice;
 			global.buildMode = false;
 			global.selectedRoom = "";
 			global.selectedPlot = [-1,-1];
 			global.buyMenuRoomOpen = false;
+			global.selectedPrice = 0;
 		}
 		else{
 			//open menu to choose room
-			global.buyMenuRoomOpen= true;
+			global.buyMenuRoomOpen = true;
 		}
 	}
 	else{

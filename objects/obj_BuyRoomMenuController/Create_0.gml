@@ -6,6 +6,7 @@ global.buyMenuRoomTab = 0;
 
 global.selectedPlot = [-1,-1]; //plot location to place the room template
 global.selectedRoom = ""; //prefix for the room template to place
+global.selectedPrice = 0; //price to purchase room
 
 global.buildMode = false;
 loadRef = false;
@@ -21,7 +22,7 @@ buttonRange = 4;
 firstButtonShown = 0;
 //=================================
 //menu values
-buttonHeightOffset = 100;
+buttonHeightOffset = 150;
 
 menux1 = 1920 * .66;
 menux2 = 2500;

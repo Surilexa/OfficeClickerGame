@@ -4,7 +4,7 @@ function CanBuyPerson(objToBuy){
 	
 	switch(objToBuy){
 		case(obj_roaming_AI_Lawyer):
-			return global.ComputerRoomNum >= 1;
+			return global.CSRoomNum >= 1;
 		case(obj_roaming_AI_Chef):
 			return global.KitchenRoomNum >= 1;
 		default:
