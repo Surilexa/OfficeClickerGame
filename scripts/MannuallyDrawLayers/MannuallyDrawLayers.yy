@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"WalkToRandomPos",
+  "%Name":"MannuallyDrawLayers",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"WalkToRandomPos",
+  "name":"MannuallyDrawLayers",
   "parent":{
     "name":"zOldScripts",
     "path":"folders/Scripts/zOldScripts.yy",

@@ -14,11 +14,12 @@ if(!isColliding){
 else{
 	img_index = 1;
 }
-if(isColliding && visible && isTabActive){
-	show_debug_message(ObjToPurchase);
+if(isColliding && visible){
+	//show_debug_message(ObjToPurchase);
 	if(mouse_check_button_released(mb_left)){
 		if(canPurchase){
 			global.selectedRoom = ObjToPurchase;
+			PurchaseRoom();
 			global.selectedPrice = price;
 			global.buildMode = true;
 		}

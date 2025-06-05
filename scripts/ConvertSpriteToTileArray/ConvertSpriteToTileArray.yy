@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ConvertSpriteToTileArray",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ConvertSpriteToTileArray",
+  "parent":{
+    "name":"Preview",
+    "path":"folders/Scripts/RoomData/Preview.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

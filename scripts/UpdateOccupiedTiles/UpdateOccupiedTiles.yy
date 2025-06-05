@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"MoveUnbuiltRoom",
+  "%Name":"UpdateOccupiedTiles",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"MoveUnbuiltRoom",
+  "name":"UpdateOccupiedTiles",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Scripts/Rooms.yy",
+    "name":"Preview",
+    "path":"folders/Scripts/RoomData/Preview.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"WalkToRandomPos",
+  "%Name":"ShowPreview",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"WalkToRandomPos",
+  "name":"ShowPreview",
   "parent":{
-    "name":"zOldScripts",
-    "path":"folders/Scripts/zOldScripts.yy",
+    "name":"Preview",
+    "path":"folders/Scripts/RoomData/Preview.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

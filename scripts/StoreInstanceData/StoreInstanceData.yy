@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"StoreInstanceData",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"RoomData",
+    "path":"folders/Scripts/RoomData.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
