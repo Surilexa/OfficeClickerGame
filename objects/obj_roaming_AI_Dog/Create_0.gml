@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+spawnx = x;
+spawny = y;
 
 move_speed = 2;
 

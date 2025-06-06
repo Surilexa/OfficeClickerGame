@@ -16,9 +16,17 @@ if(array_length(global.ReceptionTemplateInfo_Tiles) == 0){
 					var instTemp = StoreInstanceData(layers[n]);
 					if(ds_list_size(instTemp) != 0){
 						global.ReceptionTemplateInfo_Instances = StoreInstanceData(layers[n]);
-						show_debug_message(string(layers[n]) + " was stored in info instances");
+						//show_debug_message(string(layers[n]) + " was stored in info instances");
 					}
 						
+				}
+				for(var j = 0; j < array_length(global.ReceptionTemplateInfo_Tiles); j++){
+					var tempArray = global.ReceptionTemplateInfo_Tiles[j];
+					for(var k = 0; k < array_length(tempArray); k++){
+						var w = tempArray[k][1];
+						var h = tempArray[k][2];
+						global.ReceptionCollisionMask[w,h] = true;
+					}
 				}
 				break;
 			case("CS"):
@@ -34,7 +42,15 @@ if(array_length(global.ReceptionTemplateInfo_Tiles) == 0){
 					var instTemp = StoreInstanceData(layers[n]);
 					if(ds_list_size(instTemp) != 0){
 						global.CSTemplateInfo_Instances = StoreInstanceData(layers[n]);
-						show_debug_message(string(layers[n]) + " was stored in info instances");
+						//show_debug_message(string(layers[n]) + " was stored in info instances");
+					}
+				}
+				for(var j = 0; j < array_length(global.CSTemplateInfo_Tiles); j++){
+					var tempArray = global.CSTemplateInfo_Tiles[j];
+					for(var k = 0; k < array_length(tempArray); k++){
+						var w = tempArray[k][1];
+						var h = tempArray[k][2];
+						global.CSCollisionMask[w,h] = true;
 					}
 				}
 				break;
@@ -51,7 +67,15 @@ if(array_length(global.ReceptionTemplateInfo_Tiles) == 0){
 					var instTemp = StoreInstanceData(layers[n]);
 					if(ds_list_size(instTemp) != 0){
 						global.DemonTemplateInfo_Instances = StoreInstanceData(layers[n]);
-						show_debug_message(string(layers[n]) + " was stored in info instances");
+						//show_debug_message(string(layers[n]) + " was stored in info instances");
+					}
+				}
+				for(var j = 0; j < array_length(global.DemonTemplateInfo_Tiles); j++){
+					var tempArray = global.DemonTemplateInfo_Tiles[j];
+					for(var k = 0; k < array_length(tempArray); k++){
+						var w = tempArray[k][1];
+						var h = tempArray[k][2];
+						global.DemonCollisionMask[w,h] = true;
 					}
 				}
 				break;
@@ -68,7 +92,15 @@ if(array_length(global.ReceptionTemplateInfo_Tiles) == 0){
 					var instTemp = StoreInstanceData(layers[n]);
 					if(ds_list_size(instTemp) != 0){
 						global.KitchenTemplateInfo_Instances = StoreInstanceData(layers[n]);
-						show_debug_message(string(layers[n]) + " was stored in info instances");
+						//show_debug_message(string(layers[n]) + " was stored in info instances");
+					}
+				}
+				for(var j = 0; j < array_length(global.KitchenTemplateInfo_Tiles); j++){
+					var tempArray = global.KitchenTemplateInfo_Tiles[j];
+					for(var k = 0; k < array_length(tempArray); k++){
+						var w = tempArray[k][1];
+						var h = tempArray[k][2];
+						global.KitchenCollisionMask[w,h] = true;
 					}
 				}
 				break;
@@ -85,7 +117,15 @@ if(array_length(global.ReceptionTemplateInfo_Tiles) == 0){
 					var instTemp = StoreInstanceData(layers[n]);
 					if(ds_list_size(instTemp) != 0){
 						global.GymTemplateInfo_Instances = StoreInstanceData(layers[n]);
-						show_debug_message(string(layers[n]) + " was stored in info instances");
+						//show_debug_message(string(layers[n]) + " was stored in info instances");
+					}
+				}
+				for(var j = 0; j < array_length(global.GymTemplateInfo_Tiles); j++){
+					var tempArray = global.GymTemplateInfo_Tiles[j];
+					for(var k = 0; k < array_length(tempArray); k++){
+						var w = tempArray[k][1];
+						var h = tempArray[k][2];
+						global.GymCollisionMask[w,h] = true;
 					}
 				}
 				break;

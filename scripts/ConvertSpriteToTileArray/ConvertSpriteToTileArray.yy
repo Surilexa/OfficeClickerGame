@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"ConvertSpriteToTileArray",
   "parent":{
-    "name":"Preview",
-    "path":"folders/Scripts/RoomData/Preview.yy",
+    "name":"zOldScripts",
+    "path":"folders/Scripts/zOldScripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

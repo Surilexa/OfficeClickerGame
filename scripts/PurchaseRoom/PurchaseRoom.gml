@@ -2,32 +2,17 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PurchaseRoom(){
 	global.buildMode = true;
-	show_debug_message(global.selectedPlot);
-	
-	if(global.selectedRoom != ""){
+	if(global.selectedRoom != "" && !global.previewMode){
 		//run preview code here
 		//setup the preview layers
+		global.buyMenuRoomOpen = false;
+		global.previewMode = true;
 		BuildTheRoom(global.selectedRoom, 0 , 0, true);
 	}
-	else if(global.selectedPlot != [-1,-1]){
-		show_debug_message(string(global.selectedPlot));
-		var plotref = FindPlotReference(global.selectedPlot[0], global.selectedPlot[1]);
-		var placement = RoomPlacementUsingPlot(plotref.plotXLocation,plotref.plotYLocation, 3,3);
-		if(global.selectedRoom != ""){
-			//place down room at plot
-			BuildTheRoom(global.selectedRoom, placement[0]/48 , placement[1]/48, false);
-			SetSurroundingPlots(global.selectedPlot[0],global.selectedPlot[1], true);
-			show_debug_message(string(global.selectedRoom) + "  x: " + string(placement[0]) + "  y: " + string(placement[1]));
-			global.currentScore -= global.selectedPrice;
-			global.buildMode = false;
-			global.selectedRoom = "";
-			global.selectedPlot = [-1,-1];
-			global.buyMenuRoomOpen = false;
-			global.selectedPrice = 0;
-		}
-		else{
-			//open menu to choose room
-			global.buyMenuRoomOpen = true;
-		}
+	else if(global.previewMode){
+		//open menu to choose room
+		global.previewMode = false;
+		global.buyMenuRoomOpen = false;
+		BuildTheRoom(global.selectedRoom, floor(mouse_x/48), floor(mouse_y/48), false);
 	}
 }

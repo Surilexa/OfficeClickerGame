@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"PurchaseRoom",
   "parent":{
-    "name":"Menu",
-    "path":"folders/Scripts/Rooms/Menu.yy",
+    "name":"Build",
+    "path":"folders/Scripts/Rooms/Build.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

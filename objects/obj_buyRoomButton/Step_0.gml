@@ -21,7 +21,6 @@ if(isColliding && visible){
 			global.selectedRoom = ObjToPurchase;
 			PurchaseRoom();
 			global.selectedPrice = price;
-			global.buildMode = true;
 		}
 	}
 }

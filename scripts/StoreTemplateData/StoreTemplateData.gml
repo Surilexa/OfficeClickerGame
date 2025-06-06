@@ -14,7 +14,7 @@ function StoreTemplateData(layer_name){
 	        var tiledata = tilemap_get(tilemap_id, b, a);
 	        if (tiledata != 0) {
 	            array_push(temp_tiles, [tiledata, b, a]);
-				//show_debug_message(string(b) + "    " +  string(a));
+				//show_debug_message(string(tiledata) + "    " +string(b) + "    " +  string(a));
 	        }
 	    }
 	}

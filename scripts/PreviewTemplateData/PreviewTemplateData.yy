@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"PreviewTemplateData",
   "parent":{
-    "name":"RoomData",
-    "path":"folders/Scripts/RoomData.yy",
+    "name":"zOldScripts",
+    "path":"folders/Scripts/zOldScripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

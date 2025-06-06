@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"BuildTheRoom",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Scripts/Rooms.yy",
+    "name":"Build",
+    "path":"folders/Scripts/Rooms/Build.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

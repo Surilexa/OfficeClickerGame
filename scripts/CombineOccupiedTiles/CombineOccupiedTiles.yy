@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"CombineOccupiedTiles",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CombineOccupiedTiles",
+  "parent":{
+    "name":"Preview",
+    "path":"folders/Scripts/RoomData/Preview.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

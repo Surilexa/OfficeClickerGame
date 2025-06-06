@@ -6,13 +6,14 @@ function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset, previe
 		case("Reception"):
 			if(!preview){
 				for(var i = 0; i < array_length(global.ReceptionTemplateInfo_Tiles); i++){
-					PreviewTemplateData(global.ReceptionTemplateInfo_Tiles[i], global.ReceptionTileSetIDs[i], 48,48, 
-					prefixToPurchase + string(global.ReceptionRoomNum) + string(i) + "_Preview",TemplateXOffset,TemplateYOffset, false);
+					PasteTemplateData(global.ReceptionTemplateInfo_Tiles[i], global.ReceptionTileSetIDs[i], 48,48, 
+					prefixToPurchase + string(global.ReceptionRoomNum) + string(i),TemplateXOffset,TemplateYOffset, false);
 				}
 				PasteInstanceData(global.ReceptionTemplateInfo_Instances, prefixToPurchase + string(global.ReceptionRoomNum) + "_objs",TemplateXOffset * 48,TemplateYOffset * 48);
 				global.ReceptionRoomNum++;
 			}
 			else{
+				obj_preview.arrayPreview = global.ReceptionCollisionMask;
 				ShowPreview(spr_reception_preview);
 			}
 			
@@ -27,7 +28,8 @@ function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset, previe
 				global.CSRoomNum++;
 			}
 			else{
-				ShowPreview(spr_reception_preview);
+				obj_preview.arrayPreview = global.CSCollisionMask;
+				ShowPreview(spr_cs_preview);
 			}
 			break;
 		case("Demon"):
@@ -41,6 +43,7 @@ function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset, previe
 				global.DemonRoomNum++;
 			}
 			else{
+				obj_preview.arrayPreview = global.DemonCollisionMask;
 				ShowPreview(spr_reception_preview);
 			}
 			break;
@@ -54,8 +57,12 @@ function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset, previe
 				PasteInstanceData(global.GymTemplateInfo_Instances, prefixToPurchase + string(global.GymRoomNum) + "_objs",TemplateXOffset * 48,TemplateYOffset * 48);
 				global.GymRoomNum++;
 			}
+			else{
+				//show_debug_message(global.GymCollisionMask);
+				obj_preview.arrayPreview = global.GymCollisionMask;
+				ShowPreview(spr_gym_preview);
+			}
 			break;
-			
 		case("Kitchen"):
 			if(!preview){
 				for(var i = 0; i < array_length(global.KitchenTemplateInfo_Tiles); i++){
@@ -67,6 +74,7 @@ function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset, previe
 				global.KitchenRoomNum++;
 			}
 			else{
+				obj_preview.arrayPreview = global.KitchenCollisionMask;
 				ShowPreview(spr_reception_preview);
 			}
 			break;

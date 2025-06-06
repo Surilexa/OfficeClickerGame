@@ -4,11 +4,11 @@
 global.buyMenuRoomOpen = false;
 global.buyMenuRoomTab = 0;
 
-global.selectedPlot = [-1,-1]; //plot location to place the room template
 global.selectedRoom = ""; //prefix for the room template to place
 global.selectedPrice = 0; //price to purchase room
 
 global.buildMode = false;
+global.previewMode = false;
 loadRef = false;
 //=================================
 //button variables

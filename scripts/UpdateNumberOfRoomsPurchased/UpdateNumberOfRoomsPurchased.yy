@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"UpdateNumberOfRoomsPurchased",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Scripts/Rooms.yy",
+    "name":"zOldScripts",
+    "path":"folders/Scripts/zOldScripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"RoomPlacementUsingPlot",
   "parent":{
-    "name":"Menu",
-    "path":"folders/Scripts/Rooms/Menu.yy",
+    "name":"zOldScripts",
+    "path":"folders/Scripts/zOldScripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
