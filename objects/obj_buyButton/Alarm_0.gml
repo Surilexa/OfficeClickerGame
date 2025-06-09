@@ -5,4 +5,5 @@
 //show_debug_message("Pos " + string(arrayPosition) + "   firstButton" + string(obj_buttonController.firstButtonShown))
 
 basePrice = price;
+baseLimitOnScreen = LimitOnScreen;
 

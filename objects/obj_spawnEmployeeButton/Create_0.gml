@@ -70,9 +70,9 @@ ds_map_add(info, "CostToPurchase", 84000);
 ds_map_add(info, "TotalPurchased", 0);
 ds_map_add(info, "CanPurchase", false);
 ds_map_add(info, "SpawnLimit", 10);
-ds_map_add(info, "ObjToSpawn", obj_roaming_AI_General);
-ds_map_add(info, "SpriteLogo", spr_buyDog);
-ds_map_add_map(global.buttonInfo, "Security", info);
-array_push(global.EmployeeNames, "Security");
+ds_map_add(info, "ObjToSpawn", obj_roaming_AI_Tech);
+ds_map_add(info, "SpriteLogo", spr_buyTech);
+ds_map_add_map(global.buttonInfo, "Technicion", info);
+array_push(global.EmployeeNames, "Technicion");
 
 

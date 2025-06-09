@@ -16,6 +16,13 @@ temp.SpriteLogo = spr_buyCS;
 temp.price = 600;
 temp.basePrice = 600;
 
+temp = instance_create_layer(0,0, "ProductionButtons", obj_buyRoomButton);
+temp.ObjToPurchase = "Server";
+temp.PurchaseLimit = 2;
+temp.SpriteLogo = spr_buyServer;
+temp.price = 1500;
+temp.basePrice = 1500;
+
 temp = instance_create_layer(0,0, "AmenityButtons", obj_buyRoomButton);
 temp.ObjToPurchase = "Kitchen";
 temp.PurchaseLimit = 2;

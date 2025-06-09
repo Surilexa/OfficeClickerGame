@@ -49,5 +49,6 @@ LimitOnScreen = 0;
 canPurchase = false;
 price = 0;
 basePrice = price;
+baseLimitOnScreen = 0;
 
 alarm[0] = 2;

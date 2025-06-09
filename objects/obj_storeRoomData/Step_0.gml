@@ -132,6 +132,31 @@ if(array_length(global.ReceptionTemplateInfo_Tiles) == 0){
 					}
 				}
 				break;
+			case("Server"):
+				layers = FindAllLayersWithPrefix(prefixTemplateArray[i]);
+				for(var n = 0; n < array_length(layers); n++){
+					array_push(global.ServerTemplateInfo_Tiles, StoreTemplateData(layers[n]));
+					
+					var layer_id = layer_get_id(layers[n]);
+					var tilemap_id = layer_tilemap_get_id(layer_id);
+					var tileset_id = tilemap_get_tileset(tilemap_id);
+					array_push(global.ServerTileSetIDs, tileset_id);
+					
+					var instTemp = StoreInstanceData(layers[n]);
+					if(ds_list_size(instTemp) != 0){
+						global.ServerTemplateInfo_Instances = StoreInstanceData(layers[n]);
+						//show_debug_message(string(layers[n]) + " was stored in info instances");
+					}
+				}
+				for(var j = 0; j < array_length(global.ServerTemplateInfo_Tiles); j++){
+					var tempArray = global.ServerTemplateInfo_Tiles[j];
+					for(var k = 0; k < array_length(tempArray); k++){
+						var w = tempArray[k][1];
+						var h = tempArray[k][2];
+						global.ServerCollisionMask[w,h] = true;
+					}
+				}
+				break;
 		}
 	}
 }

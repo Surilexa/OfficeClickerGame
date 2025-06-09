@@ -27,5 +27,6 @@ global.KitchenRoomNum = 0;
 global.CatRoomNum = 0;
 global.DemonRoomNum = 0;
 global.GymRoomNum = 0;
+global.ServerRoomNum = 0;
 
 //==========================================

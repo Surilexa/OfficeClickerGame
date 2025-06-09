@@ -7,6 +7,8 @@ function CanBuyPerson(objToBuy){
 			return global.CSRoomNum >= 1;
 		case(obj_roaming_AI_Chef):
 			return global.KitchenRoomNum >= 1;
+		case(obj_roaming_AI_Tech):
+			return global.ServerRoomNum >= 1;
 		default:
 			return true;
 	}
