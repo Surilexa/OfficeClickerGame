@@ -72,12 +72,15 @@ if(array_length(global.ReceptionTemplateInfo_Tiles) == 0){
 				}
 				for(var j = 0; j < array_length(global.DemonTemplateInfo_Tiles); j++){
 					var tempArray = global.DemonTemplateInfo_Tiles[j];
+					
 					for(var k = 0; k < array_length(tempArray); k++){
 						var w = tempArray[k][1];
 						var h = tempArray[k][2];
 						global.DemonCollisionMask[w,h] = true;
+						//show_debug_message(string(w) + "   " +string(h));
 					}
 				}
+				
 				break;
 			case("Kitchen"):
 				layers = FindAllLayersWithPrefix(prefixTemplateArray[i]);

@@ -9,7 +9,8 @@ function CompareOccupiedTiles(array1, array2){
 			if(mouse_x + i*48 >= array_length(result)*48 || mouse_y + j*48 >= array_length(result[j])*48 || mouse_x < 0 || mouse_y <0){
 				return true;
 			}
-			if(result[i+w,j+h] == array2[i,j]){
+			if(result[i+w,j+h] == 1 && result[i+w,j+h] == array2[i,j]){
+				show_debug_message("overlapping tile at " + string(i) + "    " + string(j));
 				return true;
 			}
 		}

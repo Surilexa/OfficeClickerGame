@@ -24,6 +24,6 @@ global.KitchenCollisionMask = [];
 global.DemonTemplateInfo_Tiles = [];
 global.DemonTileSetIDs = [];
 global.DemonTemplateInfo_Instances =  ds_list_create();
-global.DemmonCollisionMask = [];
+global.DemonCollisionMask = [];
 
 prefixTemplateArray = ["Reception" , "Demon", "Gym", "Kitchen", "CS"];

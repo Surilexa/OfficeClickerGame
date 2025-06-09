@@ -9,10 +9,10 @@ if(!setup){
 if(active){
 	MovePreview(self,false);
 	tilesOverlapping = CompareOccupiedTiles(global.OccupiedTiles, arrayPreview);
-	//show_debug_message(tilesOverlapping);
+	show_debug_message(arrayPreview);
 }
 
-if(active && mouse_check_button_pressed(mb_left)){
+if(active && mouse_check_button_pressed(mb_left) && !tilesOverlapping){
 	global.previewMode = true;
 	var list = ds_list_create();
 	collision_rectangle_list(mouse_x+sprite_get_bbox_left(sprite), mouse_y+sprite_get_bbox_top(sprite), mouse_x+ sprite_get_bbox_right(sprite), mouse_y+sprite_get_bbox_bottom(sprite), all, false, true, list, false);

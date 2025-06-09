@@ -44,7 +44,7 @@ function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset, previe
 			}
 			else{
 				obj_preview.arrayPreview = global.DemonCollisionMask;
-				ShowPreview(spr_reception_preview);
+				ShowPreview(spr_demon_preview);
 			}
 			break;
 		case("Gym"):
