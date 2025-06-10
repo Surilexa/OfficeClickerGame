@@ -3,9 +3,9 @@
 
 if(!setup){
 	setup = true;
-	for(var i = 0; i < room_width / 48; i++){
-		for(var n = 0; n < room_height / 48; n++){
-			if(i > 61 && i < 76 && n > 61 && n < 76){
+	for(var i = 0; i < (room_width / 48); i++){
+		for(var n = 0; (n < room_height / 48); n++){
+			if(i > 115 && i < 134 && n > 111 && n < 130){
 				global.OccupiedTiles[i,n] = true;
 			}
 			else{

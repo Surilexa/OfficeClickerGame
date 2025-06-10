@@ -5,3 +5,5 @@ global.currentScore += global.buttonInfo[? global.EmployeeNames[0]][? "MoneyPerS
 global.currentScore += global.buttonInfo[? global.EmployeeNames[1]][? "MoneyPerSecond"] * global.Lawyers /60;
 global.currentScore += global.buttonInfo[? global.EmployeeNames[2]][? "MoneyPerSecond"] * global.Chef / 60;
 global.currentScore += global.buttonInfo[? global.EmployeeNames[3]][? "MoneyPerSecond"] * global.Dog / 60;
+global.currentScore += global.buttonInfo[? global.EmployeeNames[4]][? "MoneyPerSecond"] * global.Manager / 60;
+global.currentScore += global.buttonInfo[? global.EmployeeNames[5]][? "MoneyPerSecond"] * global.Tech / 60;

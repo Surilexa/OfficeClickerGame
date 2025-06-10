@@ -28,7 +28,7 @@ if(active && mouse_check_button_pressed(mb_left) && !tilesOverlapping){
 		}
 		var temp = GetAllInstancesInLayer("Employees");
 		for(var n = 0; n < array_length(temp); n++){
-			temp[n].alarm[11] = 1;
+			temp[n].alarm[11] = 10;
 		}
 	
 		ds_list_destroy(list);

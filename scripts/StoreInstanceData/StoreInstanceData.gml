@@ -21,7 +21,7 @@ function StoreInstanceData(layer_name){
 				scaley: inst_id.image_yscale
             };
             ds_list_add(data, info);
-			//show_debug_message(string(info));
+			show_debug_message(string(info));
         }
 		
     }

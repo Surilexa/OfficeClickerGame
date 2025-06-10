@@ -24,7 +24,7 @@ function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset, previe
 					PasteTemplateData(global.ServerTemplateInfo_Tiles[i], global.ServerTileSetIDs[i], 48,48, 
 					prefixToPurchase + string(global.ServerRoomNum) + string(i),TemplateXOffset,TemplateYOffset, false);
 				}
-				PasteInstanceData(global.ReceptionTemplateInfo_Instances, prefixToPurchase + string(global.ServerRoomNum) + "_objs",TemplateXOffset * 48,TemplateYOffset * 48);
+				PasteInstanceData(global.ServerTemplateInfo_Instances, prefixToPurchase + string(global.ServerRoomNum) + "_objs",TemplateXOffset * 48,TemplateYOffset * 48);
 				global.ServerRoomNum++;
 			}
 			else{
@@ -90,7 +90,7 @@ function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset, previe
 			}
 			else{
 				obj_preview.arrayPreview = global.KitchenCollisionMask;
-				ShowPreview(spr_reception_preview);
+				ShowPreview(spr_kitchen_preview);
 			}
 			break;
 	}

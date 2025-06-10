@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-visible = true;
+visible = false;
 //gpu_set_depth(-10);

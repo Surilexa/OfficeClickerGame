@@ -18,7 +18,7 @@ canPurchase = global.currentScore >= price && CanBuyPerson(ObjToPurchase);
 
 if(isColliding && visible){
 	if(mouse_check_button_released(mb_left)){
-		show_debug_message("buy");
+		//show_debug_message("buy");
 		if(canPurchase){
 			global.currentScore -= price;
 			totalPurchased++;

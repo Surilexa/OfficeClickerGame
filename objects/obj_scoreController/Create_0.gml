@@ -15,6 +15,8 @@ global.blueCollarWorkers = 0;
 global.Lawyers = 0;
 global.Chef = 0;
 global.Dog = 0;
+global.Manager = 0;
+global.Tech = 0;
 
 //ButtonInfo
 global.buttonInfo = ds_map_create();
