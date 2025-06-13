@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset, preview){
-	show_debug_message(string(prefixToPurchase));
+	//show_debug_message(string(prefixToPurchase));
 	switch(prefixToPurchase){
 		case("Reception"):
 			if(!preview){
@@ -30,6 +30,21 @@ function BuildTheRoom(prefixToPurchase, TemplateXOffset, TemplateYOffset, previe
 			else{
 				obj_preview.arrayPreview = global.ServerCollisionMask;
 				ShowPreview(spr_server_preview);
+			}
+			
+			break;
+		case("Manager"):
+			if(!preview){
+				for(var i = 0; i < array_length(global.ManagerTemplateInfo_Tiles); i++){
+					PasteTemplateData(global.ManagerTemplateInfo_Tiles[i], global.ManagerTileSetIDs[i], 48,48, 
+					prefixToPurchase + string(global.ManagerRoomNum) + string(i),TemplateXOffset,TemplateYOffset, false);
+				}
+				PasteInstanceData(global.ManagerTemplateInfo_Instances, prefixToPurchase + string(global.ManagerRoomNum) + "_objs",TemplateXOffset * 48,TemplateYOffset * 48);
+				global.ManagerRoomNum++;
+			}
+			else{
+				obj_preview.arrayPreview = global.ManagerCollisionMask;
+				ShowPreview(spr_Manager_preview);
 			}
 			
 			break;

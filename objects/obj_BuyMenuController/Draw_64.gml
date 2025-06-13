@@ -6,3 +6,4 @@ if(global.buyMenuOpen){
 }
 draw_set_alpha(1);
 draw_sprite_ext(spr_BuyMenuIcon, isColliding,display_get_gui_width() - margin, margin, 2,2,0,c_white,1);
+

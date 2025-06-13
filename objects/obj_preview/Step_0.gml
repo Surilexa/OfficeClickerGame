@@ -19,6 +19,12 @@ if(active && mouse_check_button_pressed(mb_left) && !tilesOverlapping){
 	}
 	else{
 		global.previewMode = true;
+		
+		//collect all overlapping people abnd place them at spawn
+		
+		
+		PurchaseRoom();
+		
 		var list = ds_list_create();
 		collision_rectangle_list(mouse_x+sprite_get_bbox_left(sprite), mouse_y+sprite_get_bbox_top(sprite), mouse_x+ sprite_get_bbox_right(sprite), mouse_y+sprite_get_bbox_bottom(sprite), all, false, true, list, false);
 	
@@ -28,11 +34,9 @@ if(active && mouse_check_button_pressed(mb_left) && !tilesOverlapping){
 		}
 		var temp = GetAllInstancesInLayer("Employees");
 		for(var n = 0; n < array_length(temp); n++){
-			temp[n].alarm[11] = 10;
+			temp[n].alarm[11] = 1;
 		}
-	
 		ds_list_destroy(list);
-		PurchaseRoom();
 		active = false;
 	}
 }

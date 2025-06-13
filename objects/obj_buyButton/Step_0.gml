@@ -24,9 +24,9 @@ if(isColliding && visible){
 			totalPurchased++;
 			price = PriceIncrease(ObjToPurchase, totalPurchased, basePrice);
 			BuyPerson(ObjToPurchase,1);
-			if(LimitOnScreen >= totalPurchased){
-				var last = instance_create_layer(spawnRef.x,spawnRef.y, "Employees", ObjToPurchase);
-			}
+			//if(LimitOnScreen >= totalPurchased){
+			var last = instance_create_layer(spawnRef.x,spawnRef.y, "Employees", ObjToPurchase);
+			//}
 		}
 	}
 }

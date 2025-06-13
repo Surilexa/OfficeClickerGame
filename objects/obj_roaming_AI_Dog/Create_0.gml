@@ -5,8 +5,8 @@ spawny = y;
 
 move_speed = 2;
 
-image_xscale = 1.25;
-image_yscale = 1.25;
+image_xscale = 1.5;
+image_yscale = 1.5;
 alarm[1] = 1;
 
 //states
@@ -34,4 +34,4 @@ dir = 0;
 
 alarm[10] = 3;
 
-whereTheyCanTravel =  [obj_General_Bounds,obj_Lawyer_Bounds];
+whereTheyCanTravel =  [obj_General_Bounds, obj_Lawyer_Bounds];

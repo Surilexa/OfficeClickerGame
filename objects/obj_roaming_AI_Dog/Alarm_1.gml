@@ -4,10 +4,10 @@
 if(walking){
 	sprite_index = spr_dogWalk;
 	if(movingLeft){
-		image_xscale = -1.25;
+		image_xscale = -1.5;
 	}
 	else if(movingRight){
-		image_xscale = 1.25;
+		image_xscale = 1.5;
 	}
 }
 else{

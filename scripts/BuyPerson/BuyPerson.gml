@@ -14,5 +14,11 @@ function BuyPerson(ref, amount){
 		case(obj_roaming_AI_Dog):
 			global.Dog += amount;
 			break;
+		case(obj_roaming_AI_Manager):
+			global.Manager += amount;
+			break;
+		case(obj_roaming_AI_Tech):
+			global.Tech += amount;
+			break;
 	}
 }

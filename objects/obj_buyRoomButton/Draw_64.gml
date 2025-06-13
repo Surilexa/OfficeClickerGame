@@ -12,7 +12,7 @@ else{
 	draw_set_color(c_white);
 }
 
-draw_text(x+pricexOffset-50, y+priceyOffset-20, "$ " + string(floor(price)));
+draw_text(x+pricexOffset-50, y+priceyOffset-20, "$ " + annotateScore(floor(price)));
 //draw_text_color(x+pricexOffset-50, y+priceyOffset-20, 
 
 //draw_text(x+pricexOffset, y+priceyOffset-20, string(floor(price)));

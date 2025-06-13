@@ -21,14 +21,14 @@ view_y = camera_get_view_y(cam);
 
 isColliding = false;
 
-ox1 = 140;
-ox2 = 300;
+ox1 = 230;
+ox2 = 430;
 oy1 = 10;
 oy2 = 90;
 
-pricexOffset = 230;
+pricexOffset = 330;
 priceyOffset = 50;
-priceXScale = 144/16;
+priceXScale = 196/16;
 priceYScale = 64/16
 
 rectx = x + view_x +ox1;
@@ -50,5 +50,7 @@ canPurchase = false;
 price = 0;
 basePrice = price;
 baseLimitOnScreen = 0;
+moneyPerSecond = 0;
+Name = "";
 
 alarm[0] = 2;

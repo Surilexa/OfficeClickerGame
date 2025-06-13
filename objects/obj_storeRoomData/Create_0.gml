@@ -16,6 +16,11 @@ global.ServerTileSetIDs = [];
 global.ServerTemplateInfo_Instances = ds_list_create
 global.ServerCollisionMask = [];
 
+global.ManagerTemplateInfo_Tiles = [];
+global.ManagerTileSetIDs = [];
+global.ManagerTemplateInfo_Instances = ds_list_create
+global.ManagerCollisionMask = [];
+
 global.GymTemplateInfo_Tiles = [];
 global.GymTileSetIDs = [];
 global.GymTemplateInfo_Instances =  ds_list_create();
@@ -31,4 +36,4 @@ global.DemonTileSetIDs = [];
 global.DemonTemplateInfo_Instances =  ds_list_create();
 global.DemonCollisionMask = [];
 
-prefixTemplateArray = ["Reception" , "Demon", "Gym", "Kitchen", "CS", "Server"];
+prefixTemplateArray = ["Reception" , "Demon", "Gym", "Kitchen", "CS", "Server", "Manager"];

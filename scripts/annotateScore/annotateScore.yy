@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"annotateScore",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"annotateScore",
+  "parent":{
+    "name":"Score",
+    "path":"folders/Scripts/Score.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

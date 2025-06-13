@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scorePerSecond",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scorePerSecond",
+  "parent":{
+    "name":"Score",
+    "path":"folders/Scripts/Score.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -11,6 +11,8 @@ if(!hasSpawned){
 		button.canPurchase = infoMap[? "CanPurchase"];
 		button.price = infoMap[? "CostToPurchase"];
 		button.arrayPosition = i;
+		button.moneyPerSecond = infoMap[? "MoneyPerSecond"];
+		button.Name = global.EmployeeNames[i];
 		//show_debug_message(string(infoMap[? "CostToPurchase"]));
 	}
 }

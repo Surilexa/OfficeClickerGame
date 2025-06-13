@@ -35,7 +35,7 @@ if (dist > move_speed) {
 if(path_index == -1 && !queuePath){
 	target_x = x;
 	target_y = y;
-	show_debug_message("fire");
+	//show_debug_message("fire");
 	queuePath = true;
 	alarm[0] = 120;
 }

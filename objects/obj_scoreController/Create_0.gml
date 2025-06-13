@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //==========================================
-global.currentScore = 1000000;
+global.currentScore = 100000000;
 global.scoreMultiplier = 1;
 global.clickMultiplier = 1;
 
@@ -30,5 +30,7 @@ global.CatRoomNum = 0;
 global.DemonRoomNum = 0;
 global.GymRoomNum = 0;
 global.ServerRoomNum = 0;
+global.ManagerRoomNum = 0;
 
 //==========================================
+

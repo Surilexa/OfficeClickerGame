@@ -13,6 +13,7 @@ function PurchaseRoom(){
 		//open menu to choose room
 		global.previewMode = false;
 		global.buyMenuRoomOpen = false;
+		global.currentScore -= global.selectedPrice;
 		BuildTheRoom(global.selectedRoom, floor(mouse_x/48), floor(mouse_y/48), false);
 	}
 }

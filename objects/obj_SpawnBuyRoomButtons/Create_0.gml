@@ -13,8 +13,15 @@ temp = instance_create_layer(0,0, "ProductionButtons", obj_buyRoomButton);
 temp.ObjToPurchase = "CS";
 temp.PurchaseLimit = 2;
 temp.SpriteLogo = spr_buyCS;
-temp.price = 600;
-temp.basePrice = 600;
+temp.price = 2500;
+temp.basePrice = 2500;
+
+temp = instance_create_layer(0,0, "ProductionButtons", obj_buyRoomButton);
+temp.ObjToPurchase = "Manager";
+temp.PurchaseLimit = 2;
+temp.SpriteLogo = spr_BuyRoomManager;
+temp.price = 35000;
+temp.basePrice = 35000;
 
 temp = instance_create_layer(0,0, "ProductionButtons", obj_buyRoomButton);
 temp.ObjToPurchase = "Server";
@@ -28,21 +35,21 @@ temp.ObjToPurchase = "Kitchen";
 temp.PurchaseLimit = 2;
 temp.SpriteLogo = spr_buyKitchen;
 temp.price = 1000;
-temp.basePrice = 1000;
+temp.basePrice = 20000;
 
 temp = instance_create_layer(0,0, "AmenityButtons", obj_buyRoomButton);
 temp.ObjToPurchase = "Gym";
 temp.PurchaseLimit = 2;
 temp.SpriteLogo = spr_buyGym;
 temp.price = 4000;
-temp.basePrice = 4000;
+temp.basePrice = 90000;
 
 temp = instance_create_layer(0,0, "DemonButtons", obj_buyRoomButton);
 temp.ObjToPurchase = "Demon";
 temp.PurchaseLimit = 2;
 temp.SpriteLogo = spr_buyDemonAlter;
-temp.price = 10000;
-temp.basePrice = 10000;
+temp.price = 1000000;
+temp.basePrice = 1000000;
 
 
 

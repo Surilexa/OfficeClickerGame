@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"s_backgroundTheme_4_upbeat",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":83.24,
+  "name":"s_backgroundTheme_4_upbeat",
+  "parent":{
+    "name":"BackgroundMusic",
+    "path":"folders/Sounds/BackgroundMusic.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"s_backgroundTheme_4_upbeat.wav",
+  "type":0,
+  "volume":0.05,
+}
