@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"handleNoteScore",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"handleNoteScore",
+  "parent":{
+    "name":"Fishing",
+    "path":"folders/Scripts/Fishing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
