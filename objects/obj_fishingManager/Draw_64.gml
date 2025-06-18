@@ -25,14 +25,17 @@ if(isActive && isFishing){
 	draw_sprite_ext(spr_fishingBackground, -1, 388, 639, 8,1.54,0,c_white, 1);
 	draw_sprite_ext(spr_fishingStrikeZone, -1, 950, 685, 2,2,0,c_white, 1);
 	
+	draw_set_color(c_black);
+	draw_text(920, 500, "Combo: " + string(combo));
+	//draw_set_color(c_white);
 	
 	//window border
 	//draw_sprite_ext(, -1, 388, 639, 8,1.54,0,c_white, 1);
 	
 	//progress bar
 	draw_sprite_ext(spr_fishingProgressBarBorder, -1, 385, 500, 8,1,0,c_white, 1);
-
-	if(progressBarFill > 0 || progressBarFill < 0 == false){
+	
+	if(progressBarFill > 0 || progressBarFill < 0 == false || progressBarFill > fillMax == false){
 		draw_sprite_ext(spr_fishingProgressBarFill, -1, 387, 501, progressBarFill,62,0,c_white, 1);
 	}
 	if(progressBarFill < 0 == false){

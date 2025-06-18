@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 fillMax = 8 * 64;
 if(keyboard_check_pressed(vk_space) && isActive){
 	isFishing = true;
@@ -20,14 +21,38 @@ iconOverlap = rectx <= mouse_x && recty < mouse_y && rectx2 > mouse_x && recty2 
 if(iconOverlap && mouse_check_button_released(mb_left)){
 	isActive = !isActive;
 }
-progressBarFill = max(progressBarFill, 0);
+
 progressBarFill = min(progressBarFill, fillMax);
 
-
+//fish is caught
 if(progressBarFill >= fillMax){
+	currentFish.isCaught = true;
+	currentFish = 0;
 	progressBarFill = 0;
 	isFishing = false;
 	layer_destroy_instances("Fishing_Notes");
 	combo++;
-	show_debug_message("Fish was caught");
 }
+//remove protection
+if(progressBarFill > 0){
+	protection = -1;
+}
+//failed to catch fish
+if(progressBarFill < 0){
+	
+	protection += progressBarFill;
+	
+	if(protection < 0 && progressBarFill < 0){
+		//fail
+		currentFish.fail = true;
+		currentFish = 0;
+		progressBarFill = 0;
+		isFishing = false;
+		layer_destroy_instances("Fishing_Notes");
+		combo = 0;
+	}
+	progressBarFill = 0;
+}
+
+
+

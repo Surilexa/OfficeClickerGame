@@ -30,3 +30,60 @@ global.fishDifficulty = 2;
 combo = 0;
 
 pirateCatSpeed = .05;
+
+protection = 103;
+
+//======================================================================
+//fish
+currentFish = 0;
+global.availableFish = ds_map_create();
+fish = ds_map_create();
+ds_map_add(fish, "Price", 100);
+ds_map_add(fish, "Difficulty", 1);
+ds_map_add(fish, "Sprite", spr_goldfish);
+ds_map_add_map(global.availableFish, 1, fish);
+
+fish = ds_map_create();
+ds_map_add(fish, "Price", 150);
+ds_map_add(fish, "Difficulty", 1);
+ds_map_add(fish, "Sprite", spr_koi);
+ds_map_add_map(global.availableFish, 2, fish);
+
+fish = ds_map_create();
+ds_map_add(fish, "Price", 250);
+ds_map_add(fish, "Difficulty", 1);
+ds_map_add(fish, "Sprite", spr_catfish);
+ds_map_add_map(global.availableFish, 3, fish);
+
+fish = ds_map_create();
+ds_map_add(fish, "Price", 500);
+ds_map_add(fish, "Difficulty", 2);
+ds_map_add(fish, "Sprite", spr_goldfish_gold);
+ds_map_add_map(global.availableFish, 4, fish);
+
+fish = ds_map_create();
+ds_map_add(fish, "Price", 500);
+ds_map_add(fish, "Difficulty", 2);
+ds_map_add(fish, "Sprite", spr_mantaray);
+ds_map_add_map(global.availableFish, 5, fish);
+
+fish = ds_map_create();
+ds_map_add(fish, "Price", 650);
+ds_map_add(fish, "Difficulty", 2);
+ds_map_add(fish, "Sprite", spr_koi_gold);
+ds_map_add_map(global.availableFish, 6, fish);
+
+fish = ds_map_create();
+ds_map_add(fish, "Price", 1200);
+ds_map_add(fish, "Difficulty", 2);
+ds_map_add(fish, "Sprite", spr_catfish_gold);
+ds_map_add_map(global.availableFish, 7, fish);
+
+fish = ds_map_create();
+ds_map_add(fish, "Price", 1500);
+ds_map_add(fish, "Difficulty", 3);
+ds_map_add(fish, "Sprite", spr_mantaray_gold);
+ds_map_add_map(global.availableFish, 8, fish);
+
+
+
