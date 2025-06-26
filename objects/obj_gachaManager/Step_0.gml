@@ -2,22 +2,26 @@
 // You can write your code in this editor
 if(!Setup){
 	Setup = true;
-	for(var i = 0; i < 4; i++){
-	 	global.availableGacha[0,i] = asset_get_index("g1_" + string(i));
+	for(var i = 0; i < 1; i++){
+		var map = ds_map_create();
+		ds_map_add(map, "Name",  asset_get_index("g1_" + string(i)));
+		ds_map_add(map, "AmountObtained", 0);
+		ds_map_add(map, "rarity", 1);
+		global.Gacha[0,i] = map;
 	}
-	for(var i = 0; i < 4; i++){
-	 	global.availableGacha[1,i] = asset_get_index("g2_" + string(i));
+	for(var i = 0; i < 1; i++){
+	 	var map = ds_map_create();
+		ds_map_add(map, "Name",  asset_get_index("g2_" + string(i)));
+		ds_map_add(map, "AmountObtained", 0);
+		ds_map_add(map, "rarity", 2);
+		global.Gacha[1,i] = map;
 	}
-	for(var i = 0; i < 4; i++){
-	 	global.availableGacha[2,i] = asset_get_index("g3_" + string(i));
-	}
-	for(var i = 0; i < 4; i++){
-	 	global.availableGacha[3,i] = asset_get_index("g4_" + string(i));
-	}
-	for(var j = 0; j < array_length(global.obtainedGacha); j++){
-		for(var b = 0; b < array_length(global.obtainedGacha[j]); b++){
-			var temp = instance_create_layer(0,0, "DecorationButtons", global.obtainedGacha[j,b]);
-		}
+	for(var i = 0; i < 1; i++){
+	 	var map = ds_map_create();
+		ds_map_add(map, "Name",  asset_get_index("g3_" + string(i)));
+		ds_map_add(map, "AmountObtained", 0);
+		ds_map_add(map, "rarity", 3);
+		global.Gacha[2,i] = map;
 	}
 	
 	var b1 = instance_create_layer(850,800,"gachaButtons", obj_gachaButton);
