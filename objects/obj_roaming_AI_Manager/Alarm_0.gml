@@ -4,7 +4,11 @@
 
 path_delete(path);
 path = path_add();
-
+randomize();
+if(random_range(0,1) <= 0.01){
+	instance_create_layer(x,y,"TempObjects", obj_spawnCoin);
+	show_debug_message("SPawn coin");
+}
 FindRandomPath(self, whereTheyCanTravel);
 
 mp_grid_path(obj_grid.grid, path, x,y, target_x, target_y, true);

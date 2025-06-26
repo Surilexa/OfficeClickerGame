@@ -37,5 +37,6 @@ if(isColliding){
 	if(mouse_check_button_released(mb_left)){
 		global.buyMenuOpen = !global.buyMenuOpen;
 		global.buyMenuRoomOpen = false;
+		global.isFishingActive = false;
 	}
 }

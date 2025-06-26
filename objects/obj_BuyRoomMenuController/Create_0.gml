@@ -9,6 +9,9 @@ global.selectedPrice = 0; //price to purchase room
 
 global.buildMode = false;
 global.previewMode = false;
+
+global.totalRooms = 0;
+global.availableRoomsSlots = 1;
 loadRef = false;
 //=================================
 //button variables

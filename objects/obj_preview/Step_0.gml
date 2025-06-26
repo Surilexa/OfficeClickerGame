@@ -16,6 +16,7 @@ if(active && mouse_check_button_pressed(mb_left) && !tilesOverlapping){
 	if(obj_BuyMenuController.isColliding || obj_BuyRoomMenuController.isColliding){
 		global.previewMode = false;
 		active = false;
+		global.roomRef = noone;
 	}
 	else{
 		global.previewMode = true;
@@ -24,7 +25,9 @@ if(active && mouse_check_button_pressed(mb_left) && !tilesOverlapping){
 		
 		
 		PurchaseRoom();
-		
+		var t = global.roomRef;
+		t.totalPurchased++;
+		global.roomRef = noone;
 		var list = ds_list_create();
 		collision_rectangle_list(mouse_x+sprite_get_bbox_left(sprite), mouse_y+sprite_get_bbox_top(sprite), mouse_x+ sprite_get_bbox_right(sprite), mouse_y+sprite_get_bbox_bottom(sprite), all, false, true, list, false);
 	

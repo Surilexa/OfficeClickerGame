@@ -3,5 +3,5 @@
 global.obtainedGacha = [];
 global.availableGacha = [];
 
+global.isGacha = true;
 Setup = false;
-totalGachaAmount = 0;

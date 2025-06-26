@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(isCaught){
-	
 	if(x >= targetx){
 		x--;
 	}
@@ -16,7 +15,11 @@ if(isCaught){
 		alarm[1] = effectDelay;
 		count = 1;
 	}
+	
+	if(count == 1 && y >= targety){
+		alarm[0] = 60;
+	}
 }
 if(fail){
-	alarm[0] = 1;
+	alarm[2] = 1;
 }

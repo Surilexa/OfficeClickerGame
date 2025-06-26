@@ -47,4 +47,5 @@ canPurchase = true; // are there restrictions to purchase this room
 price = 0; // current price to buy
 basePrice = 0; //starting price 
 isTabActive = false; // is their tab selected
+multiplier = 0;
 x = x + 1300;

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"PullGacha",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PullGacha",
+  "parent":{
+    "name":"Gacha",
+    "path":"folders/Scripts/Gacha.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

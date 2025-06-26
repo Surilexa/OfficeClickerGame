@@ -18,11 +18,12 @@ if(isColliding && visible && canPurchase){
 	//show_debug_message(ObjToPurchase);
 	if(mouse_check_button_released(mb_left)){
 		global.selectedRoom = ObjToPurchase;
-		PurchaseRoom();
 		global.selectedPrice = price;
+		PurchaseRoom();
+		global.roomRef = self;
 	}
 }
-canPurchase = global.currentScore >= price;
+canPurchase = global.currentScore >= price && global.availableRoomsSlots > 0 && totalPurchased < PurchaseLimit;
 
 room_x = camera_get_view_x(view_camera[0]) + (x / display_get_gui_width()) * camera_get_view_width(view_camera[0]);
 room_y = camera_get_view_y(view_camera[0]) + (y / display_get_gui_height()) * camera_get_view_height(view_camera[0]);

@@ -2,9 +2,20 @@
 // You can write your code in this editor
 
 fillMax = 8 * 64;
-if(keyboard_check_pressed(vk_space) && isActive){
-	isFishing = true;
-	alarm[0] = 60;
+if(keyboard_check_pressed(vk_space) && global.isFishingActive){
+	if(!isFishing){
+		isFishing = true;
+		alarm[0] = 60;
+	}
+	else if(isFishing && progressBarFill ==0){
+		currentFish = 0;
+		progressBarFill = 0;
+		isFishing = false;
+		layer_destroy_instances("Fishing_Notes");
+		alarm[0] = -1;
+		
+	}
+	
 }
 
 room_x = camera_get_view_x(view_camera[0]) + (x / display_get_gui_width()) * camera_get_view_width(view_camera[0]);
@@ -19,7 +30,10 @@ var recty2 = room_y +(oy2 * global.zoom_level);
 iconOverlap = rectx <= mouse_x && recty < mouse_y && rectx2 > mouse_x && recty2 > mouse_y;
 
 if(iconOverlap && mouse_check_button_released(mb_left)){
-	isActive = !isActive;
+	global.isFishingActive = !global.isFishingActive;
+	global.buyMenuRoomOpen = false;
+	global.buyMenuOpen = false;
+	//global.
 }
 
 progressBarFill = min(progressBarFill, fillMax);
@@ -34,9 +48,7 @@ if(progressBarFill >= fillMax){
 	combo++;
 }
 //remove protection
-if(progressBarFill > 0){
-	protection = -1;
-}
+
 //failed to catch fish
 if(progressBarFill < 0){
 	

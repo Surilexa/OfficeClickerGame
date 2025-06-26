@@ -39,6 +39,7 @@ if(isColliding){
 		global.buyMenuRoomOpen = !global.buyMenuRoomOpen;
 		global.buyMenuOpen = false;
 		TabChange(global.BuyRoomTab);
+		global.isFishingActive = false;
 	}
 }
 //==================================================================================

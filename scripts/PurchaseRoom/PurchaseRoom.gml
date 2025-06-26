@@ -8,6 +8,7 @@ function PurchaseRoom(){
 		global.buyMenuRoomOpen = false;
 		global.previewMode = true;
 		BuildTheRoom(global.selectedRoom, 0 , 0, true);
+		return false;
 	}
 	else if(global.previewMode){
 		//open menu to choose room
@@ -15,5 +16,7 @@ function PurchaseRoom(){
 		global.buyMenuRoomOpen = false;
 		global.currentScore -= global.selectedPrice;
 		BuildTheRoom(global.selectedRoom, floor(mouse_x/48), floor(mouse_y/48), false);
+		global.totalRooms++;
+		return true;
 	}
 }

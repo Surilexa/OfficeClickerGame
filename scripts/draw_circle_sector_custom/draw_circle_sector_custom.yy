@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_circle_sector_custom",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_circle_sector_custom",
+  "parent":{
+    "name":"Score",
+    "path":"folders/Scripts/Score.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

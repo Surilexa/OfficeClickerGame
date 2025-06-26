@@ -3,6 +3,11 @@
 //show_debug_message("Checking player");
 
 path_delete(path);
+randomize();
+if(random_range(0,1) <= 0.01){
+	instance_create_layer(x,y,"TempObjects", obj_spawnCoin);
+	show_debug_message("SPawn coin");
+}
 path = path_add();
 
 FindRandomPath(self, whereTheyCanTravel);

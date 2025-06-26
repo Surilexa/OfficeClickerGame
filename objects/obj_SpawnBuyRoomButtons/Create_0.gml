@@ -4,17 +4,18 @@ hasSpawned = false;
 
 temp = instance_create_layer(0,0, "ProductionButtons", obj_buyRoomButton);
 temp.ObjToPurchase = "Reception";
-temp.PurchaseLimit = 2;
+temp.PurchaseLimit = 3;
 temp.SpriteLogo = spr_buyReception;
 temp.price = 100;
 temp.basePrice = 100;
 
 temp = instance_create_layer(0,0, "ProductionButtons", obj_buyRoomButton);
 temp.ObjToPurchase = "CS";
-temp.PurchaseLimit = 2;
+temp.PurchaseLimit = 3;
 temp.SpriteLogo = spr_buyCS;
 temp.price = 2500;
 temp.basePrice = 2500;
+
 
 temp = instance_create_layer(0,0, "ProductionButtons", obj_buyRoomButton);
 temp.ObjToPurchase = "Manager";
@@ -50,6 +51,8 @@ temp.PurchaseLimit = 2;
 temp.SpriteLogo = spr_buyDemonAlter;
 temp.price = 1000000;
 temp.basePrice = 1000000;
+
+
 
 
 

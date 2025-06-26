@@ -5,6 +5,8 @@ global.currentScore = 100000000;
 global.scoreMultiplier = 1;
 global.clickMultiplier = 1;
 
+global.coins = 0;
+
 //scoreAmount = .01 * global.scoreMultiplier;
 //==========================================
 global.canScrollMenu = false;
@@ -33,4 +35,7 @@ global.ServerRoomNum = 0;
 global.ManagerRoomNum = 0;
 
 //==========================================
-
+//EXP
+global.level = 1;
+global.totalRevenue = 0;
+global.requriedExp = 102.38 * power(1.396, global.level);

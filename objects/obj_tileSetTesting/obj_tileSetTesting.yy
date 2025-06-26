@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"TileMapGenerator",
-    "path":"folders/Objects/TileMapGenerator.yy",
+    "path":"folders/Objects/UI/TileMapGenerator.yy",
   },
   "parentObjectId":null,
   "persistent":false,
