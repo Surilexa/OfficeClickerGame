@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"OfficeClickerGame",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -79,6 +79,7 @@
     {"$GMFolder":"","%Name":"RPGMaker","folderPath":"folders/Tile Sets/RPGMaker.yy","name":"RPGMaker","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"0 Player HUD v1.0.aseprite","CopyToMask":-1,"filePath":"datafiles","name":"0 Player HUD v1.0.aseprite","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"1 Dialogue Box v1.1.aseprite","CopyToMask":-1,"filePath":"datafiles","name":"1 Dialogue Box v1.1.aseprite","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
