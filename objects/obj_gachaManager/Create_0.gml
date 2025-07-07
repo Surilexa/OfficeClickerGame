@@ -2,5 +2,7 @@
 // You can write your code in this editorg
 global.Gacha = [];
 
-global.isGacha = true;
+global.isGacha = false;
 Setup = false;
+
+visible = global.isGacha;

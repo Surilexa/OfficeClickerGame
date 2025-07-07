@@ -27,8 +27,15 @@ function PullGacha(numberOfTimes){
 		var rolledGacha = irandom_range(0,array_length(temp));
 		
 		//compare what the player pulled with what they already own.
-		var pull = global.Gacha[tier-1, rolledGacha];
+		//var pull = global.Gacha[tier-1, rolledGacha];
 		//spawn a gacha animation for each pulled gacha.
-		pull[? "AmountObtained"] += 1;
+		 global.Gacha[tier-1, rolledGacha][? "AmountObtained"] += 1;
 	}
+	
+	//spawn animation logic
+	
+	instance_create_layer(0,0,"TempObjects",obj_pullVFXManager);
+	
+	
+	
 }

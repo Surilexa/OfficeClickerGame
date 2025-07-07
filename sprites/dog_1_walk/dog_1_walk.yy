@@ -3,8 +3,8 @@
   "%Name":"dog_1_walk",
   "bboxMode":0,
   "bbox_bottom":47,
-  "bbox_left":3,
-  "bbox_right":282,
+  "bbox_left":0,
+  "bbox_right":42,
   "bbox_top":19,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,19 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"20308af7-d1ef-48d8-a37f-fd864847448b","name":"20308af7-d1ef-48d8-a37f-fd864847448b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"7ddcc305-61de-4238-9669-d2e9aa398b49","name":"7ddcc305-61de-4238-9669-d2e9aa398b49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"919e2664-f8d8-48de-b044-43e16022b694","name":"919e2664-f8d8-48de-b044-43e16022b694","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"139a9f0e-e9b9-4f25-bd88-11a167f0a789","name":"139a9f0e-e9b9-4f25-bd88-11a167f0a789","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"90f74d56-ef7f-4ef0-9d7e-0bacded1bacd","name":"90f74d56-ef7f-4ef0-9d7e-0bacded1bacd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"7a174170-12b6-437e-81ed-3fb474a22474","name":"7a174170-12b6-437e-81ed-3fb474a22474","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0812d965-5e56-4885-9c9a-4b617e7252bd","name":"0812d965-5e56-4885-9c9a-4b617e7252bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"4f0a2928-f322-4f1b-af1f-1afcfc30e436","blendMode":0,"displayName":"default","isLocked":false,"name":"4f0a2928-f322-4f1b-af1f-1afcfc30e436","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"40c12100-9cd0-481b-b1ca-eda29986d6d1","blendMode":0,"displayName":"default","isLocked":false,"name":"40c12100-9cd0-481b-b1ca-eda29986d6d1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"dog_1_walk",
   "nineSlice":null,
@@ -49,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,16 +64,35 @@
     },
     "name":"dog_1_walk",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":12.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":48.0,
+    "seqWidth":48.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"20308af7-d1ef-48d8-a37f-fd864847448b","path":"sprites/dog_1_walk/dog_1_walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ba46235b-84d3-4d4b-acf0-9ee67ee1a0bf","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ddcc305-61de-4238-9669-d2e9aa398b49","path":"sprites/dog_1_walk/dog_1_walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"db7c7fc3-abf5-4bd3-8e7c-81d39ae69474","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"919e2664-f8d8-48de-b044-43e16022b694","path":"sprites/dog_1_walk/dog_1_walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a800e9aa-128a-4a23-b4e8-4075e0597fdb","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"139a9f0e-e9b9-4f25-bd88-11a167f0a789","path":"sprites/dog_1_walk/dog_1_walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9bbec73f-d2aa-4aea-b575-70a80948298c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"90f74d56-ef7f-4ef0-9d7e-0bacded1bacd","path":"sprites/dog_1_walk/dog_1_walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"aa9cf8eb-fa12-40b9-819f-36bb7ea6aef9","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a174170-12b6-437e-81ed-3fb474a22474","path":"sprites/dog_1_walk/dog_1_walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bdcbd7e6-0f36-4bd0-b604-9ed7e66d65a6","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0812d965-5e56-4885-9c9a-4b617e7252bd","path":"sprites/dog_1_walk/dog_1_walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4af7cfa7-0160-426f-93c4-54915f54f730","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -84,5 +108,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":288,
+  "width":48,
 }

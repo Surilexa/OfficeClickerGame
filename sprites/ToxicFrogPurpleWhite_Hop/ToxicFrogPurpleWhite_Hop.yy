@@ -3,8 +3,8 @@
   "%Name":"ToxicFrogPurpleWhite_Hop",
   "bboxMode":0,
   "bbox_bottom":32,
-  "bbox_left":11,
-  "bbox_right":319,
+  "bbox_left":9,
+  "bbox_right":32,
   "bbox_top":11,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,20 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6590185a-2c86-45f8-9bef-55d003da925c","name":"6590185a-2c86-45f8-9bef-55d003da925c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"28919483-71b8-4c33-8296-94a70f95d079","name":"28919483-71b8-4c33-8296-94a70f95d079","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5a2a01bf-3ca2-4fc8-a4af-bbe1f9565509","name":"5a2a01bf-3ca2-4fc8-a4af-bbe1f9565509","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"362cc129-88cf-4225-8661-d43876709e17","name":"362cc129-88cf-4225-8661-d43876709e17","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"89bcaec5-b415-4179-ab09-146dbcefb67d","name":"89bcaec5-b415-4179-ab09-146dbcefb67d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"baa62c73-1457-4945-80e5-a0ed73a8d47e","name":"baa62c73-1457-4945-80e5-a0ed73a8d47e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8801b64b-4d7b-413c-a5d1-710ae6ae31c3","name":"8801b64b-4d7b-413c-a5d1-710ae6ae31c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5c3f5686-f03e-465a-9921-e403e6ba45c9","name":"5c3f5686-f03e-465a-9921-e403e6ba45c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fe5504fc-7232-4238-ae4d-511c26fbb550","blendMode":0,"displayName":"default","isLocked":false,"name":"fe5504fc-7232-4238-ae4d-511c26fbb550","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4c664ec4-5184-469e-a355-87b8bb0a086e","blendMode":0,"displayName":"default","isLocked":false,"name":"4c664ec4-5184-469e-a355-87b8bb0a086e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"ToxicFrogPurpleWhite_Hop",
   "nineSlice":null,
@@ -49,7 +55,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":7.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -63,12 +69,34 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":48.0,
+    "seqWidth":48.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6590185a-2c86-45f8-9bef-55d003da925c","path":"sprites/ToxicFrogPurpleWhite_Hop/ToxicFrogPurpleWhite_Hop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ffd43635-a730-4e7d-965e-76823361b425","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"28919483-71b8-4c33-8296-94a70f95d079","path":"sprites/ToxicFrogPurpleWhite_Hop/ToxicFrogPurpleWhite_Hop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d8cb9abf-52af-4ae0-a23f-56f665dceb19","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5a2a01bf-3ca2-4fc8-a4af-bbe1f9565509","path":"sprites/ToxicFrogPurpleWhite_Hop/ToxicFrogPurpleWhite_Hop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"eb27b491-c7ae-4463-9c9a-f95452090008","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"362cc129-88cf-4225-8661-d43876709e17","path":"sprites/ToxicFrogPurpleWhite_Hop/ToxicFrogPurpleWhite_Hop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f670cb0e-f7a6-4a3e-8b9a-5ddda58464b1","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89bcaec5-b415-4179-ab09-146dbcefb67d","path":"sprites/ToxicFrogPurpleWhite_Hop/ToxicFrogPurpleWhite_Hop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"877c27af-4cdf-4e93-939b-e595263cdeb7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"baa62c73-1457-4945-80e5-a0ed73a8d47e","path":"sprites/ToxicFrogPurpleWhite_Hop/ToxicFrogPurpleWhite_Hop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a3b8086f-3c81-47ec-92b3-3693b6a40b0d","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8801b64b-4d7b-413c-a5d1-710ae6ae31c3","path":"sprites/ToxicFrogPurpleWhite_Hop/ToxicFrogPurpleWhite_Hop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a80b27e9-2be9-4d95-bf21-75d24a661d21","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c3f5686-f03e-465a-9921-e403e6ba45c9","path":"sprites/ToxicFrogPurpleWhite_Hop/ToxicFrogPurpleWhite_Hop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e6272dd2-93f0-4cd5-b88a-0ea312ef9bc6","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -84,5 +112,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":336,
+  "width":48,
 }
