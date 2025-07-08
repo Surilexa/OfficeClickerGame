@@ -9,14 +9,14 @@ function PullGacha(numberOfTimes){
 		randomize();
 		var roll = random_range(0,1);
 		//check the tier that they rolled and find random with that tier
-		if(roll <= .03)
+		if(roll <= .06)
 		{
 			tier = 3;
-			//epic purple tier 3%
+			//epic purple tier 6%
 		}
 		else if(roll <= .27){
 			tier = 2;
-			//uncommon green tier 27%
+			//uncommon green tier 24%
 		}
 		else{
 			tier = 1;

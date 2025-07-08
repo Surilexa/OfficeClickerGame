@@ -71,6 +71,11 @@
   "ResourceOrderSettings":[
     {"name":"f_Scoring","order":1,"path":"fonts/f_Scoring/f_Scoring.yy",},
     {"name":"g1_1","order":1,"path":"objects/g1_1/g1_1.yy",},
+    {"name":"g1_2","order":2,"path":"objects/g1_2/g1_2.yy",},
+    {"name":"g1_3","order":3,"path":"objects/g1_3/g1_3.yy",},
+    {"name":"g2_2","order":2,"path":"objects/g2_2/g2_2.yy",},
+    {"name":"g2_3","order":3,"path":"objects/g2_3/g2_3.yy",},
+    {"name":"g3_2","order":1,"path":"objects/g3_2/g3_2.yy",},
     {"name":"obj_accuracy","order":3,"path":"objects/obj_accuracy/obj_accuracy.yy",},
     {"name":"obj_BuildRoom","order":1,"path":"objects/obj_BuildRoom/obj_BuildRoom.yy",},
     {"name":"obj_buyButton","order":1,"path":"objects/obj_buyButton/obj_buyButton.yy",},

@@ -2,23 +2,24 @@
 // You can write your code in this editor
 if(!Setup){
 	Setup = true;
-	for(var i = 0; i < 1; i++){
+	for(var i = 0; i < 3; i++){
 		var map = ds_map_create();
-		ds_map_add(map, "Name",  asset_get_index("g1_" + string(i)));
+		ds_map_add(map, "Name",  asset_get_index("g1_" + string(i+1)));
 		ds_map_add(map, "AmountObtained", 0);
 		ds_map_add(map, "rarity", 1);
 		global.Gacha[0,i] = map;
+		//show_debug_message(string(asset_get_index("g1_" + string(i+1)) )+ "   asset " )
 	}
-	for(var i = 0; i < 1; i++){
+	for(var i = 0; i < 3; i++){
 	 	var map = ds_map_create();
-		ds_map_add(map, "Name",  asset_get_index("g2_" + string(i)));
+		ds_map_add(map, "Name",  asset_get_index("g2_" + string(i+1)));
 		ds_map_add(map, "AmountObtained", 0);
 		ds_map_add(map, "rarity", 2);
 		global.Gacha[1,i] = map;
 	}
-	for(var i = 0; i < 1; i++){
+	for(var i = 0; i < 2; i++){
 	 	var map = ds_map_create();
-		ds_map_add(map, "Name",  asset_get_index("g3_" + string(i)));
+		ds_map_add(map, "Name",  asset_get_index("g3_" + string(i+1)));
 		ds_map_add(map, "AmountObtained", 0);
 		ds_map_add(map, "rarity", 3);
 		global.Gacha[2,i] = map;
