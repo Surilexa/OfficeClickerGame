@@ -22,3 +22,4 @@ if(isColliding && mouse_check_button_released(mb_left) && visible){
 	}
 }
 
+visible = global.isGacha;

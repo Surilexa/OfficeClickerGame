@@ -330,6 +330,7 @@
     {"id":{"name":"spr_gacha_purple","path":"sprites/spr_gacha_purple/spr_gacha_purple.yy",},},
     {"id":{"name":"spr_gacha_white","path":"sprites/spr_gacha_white/spr_gacha_white.yy",},},
     {"id":{"name":"spr_gachaBackground","path":"sprites/spr_gachaBackground/spr_gachaBackground.yy",},},
+    {"id":{"name":"spr_gachaIcon","path":"sprites/spr_gachaIcon/spr_gachaIcon.yy",},},
     {"id":{"name":"spr_goldfish_gold","path":"sprites/spr_goldfish_gold/spr_goldfish_gold.yy",},},
     {"id":{"name":"spr_goldfish","path":"sprites/spr_goldfish/spr_goldfish.yy",},},
     {"id":{"name":"spr_gym_preview","path":"sprites/spr_gym_preview/spr_gym_preview.yy",},},

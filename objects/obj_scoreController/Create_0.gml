@@ -5,7 +5,7 @@ global.currentScore = 100000000;
 global.scoreMultiplier = 1;
 global.clickMultiplier = 1;
 
-global.coins = 0;
+global.coins = 10000;
 
 //scoreAmount = .01 * global.scoreMultiplier;
 //==========================================

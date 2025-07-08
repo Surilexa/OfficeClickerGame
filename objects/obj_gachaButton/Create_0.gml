@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.coins = 1000;
+
 numberOfPulls = 1;
-cost = 300;
+cost = 500;
 
 isColliding = false;
 

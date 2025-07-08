@@ -251,6 +251,7 @@
     {"name":"spr_gacha_green","order":7,"path":"sprites/spr_gacha_green/spr_gacha_green.yy",},
     {"name":"spr_gacha_purple","order":9,"path":"sprites/spr_gacha_purple/spr_gacha_purple.yy",},
     {"name":"spr_gacha_white","order":6,"path":"sprites/spr_gacha_white/spr_gacha_white.yy",},
+    {"name":"spr_gachaIcon","order":10,"path":"sprites/spr_gachaIcon/spr_gachaIcon.yy",},
     {"name":"spr_goldfish_gold","order":6,"path":"sprites/spr_goldfish_gold/spr_goldfish_gold.yy",},
     {"name":"spr_goldfish","order":2,"path":"sprites/spr_goldfish/spr_goldfish.yy",},
     {"name":"spr_gym_preview","order":1,"path":"sprites/spr_gym_preview/spr_gym_preview.yy",},

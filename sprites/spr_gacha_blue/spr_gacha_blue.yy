@@ -31,7 +31,7 @@
   ],
   "name":"spr_gacha_blue",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Gacha",
     "path":"folders/Sprites/Gacha.yy",
@@ -109,7 +109,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":35,
+    "xorigin":32,
     "yorigin":32,
   },
   "swatchColours":null,

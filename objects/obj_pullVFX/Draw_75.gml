@@ -6,5 +6,8 @@ if(drawVFX){
 else{
 	image_speed = .5;
 	draw_sprite_ext(sprite,-1,x,y,2,2,0,c_white,1);
-	instance_destroy(self);
+	/*if(!isgone){
+		alarm[2] = 120;
+		isgone = true;
+	}*/
 }
