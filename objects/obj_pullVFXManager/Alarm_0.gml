@@ -16,13 +16,13 @@ else if(array_length(pulls) <=5){
 }
 else{
 	if(i < 5){
-		var item = instance_create_layer(display_get_gui_width()/5 * (i+1) - 175,
+		var item = instance_create_layer(display_get_gui_width()/5 * (i+1) - 200,
 		display_get_gui_height()/3, "TempObjects", obj_pullVFX);
 		item.rarity = currentPull[? "rarity"];
 		item.sprite = default_sprite;
 	}
 	else{
-		var item = instance_create_layer(display_get_gui_width()/5 * (i-5+1) - 175,
+		var item = instance_create_layer(display_get_gui_width()/5 * (i-5+1) - 200,
 		display_get_gui_height()/3*2, "TempObjects", obj_pullVFX);
 		item.rarity = currentPull[? "rarity"];
 		item.sprite = default_sprite;
@@ -33,5 +33,5 @@ if(i < array_length(pulls)-1){
 	alarm[0] = 40;
 }
 else{
-	alarm[1] = 60 * 3;
+	alarm[1] = 60 * 8;
 }

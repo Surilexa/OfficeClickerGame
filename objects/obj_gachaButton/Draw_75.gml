@@ -13,7 +13,7 @@ else{
 	draw_set_color(c_red);
 }
 if(numberOfPulls > 1){
-	draw_text(x-65,y-20, string(numberOfPulls) + "x  " + string(numberOfPulls * cost));
+	draw_text(x-65,y-20, string(numberOfPulls) + "x  " + string(numberOfPulls * cost-cost));
 }
 else{
 	draw_text(x-52,y-20, string(numberOfPulls) + "x   " + string(numberOfPulls * cost));

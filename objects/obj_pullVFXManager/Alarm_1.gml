@@ -5,4 +5,5 @@ with (obj_pullVFX)
         instance_destroy();
     }
 }
+global.isGacha = true;
 instance_destroy(self);

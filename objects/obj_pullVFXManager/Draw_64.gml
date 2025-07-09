@@ -1,0 +1,1 @@
+draw_sprite_ext(backgrounds[r], -1,50,25,7.5,7.5,0,c_white,1);

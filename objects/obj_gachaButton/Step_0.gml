@@ -15,10 +15,19 @@ isColliding = rectx <= mouse_x && recty < mouse_y && rectx2 > mouse_x && recty2 
 
 
 if(isColliding && mouse_check_button_released(mb_left) && visible){
-	if(global.coins >= numberOfPulls * 500){
-		global.coins -=  numberOfPulls * 500;
-		//roll the gacha x number of times
-		PullGacha(numberOfPulls);
+	if(numberOfPulls == 10){
+		if(global.coins >= numberOfPulls * cost-cost){
+			global.coins -=  numberOfPulls * cost-cost;
+			//roll the gacha x number of times
+			PullGacha(numberOfPulls);
+		}
+	}
+	else{
+		if(global.coins >= numberOfPulls * cost){
+			global.coins -=  numberOfPulls * cost;
+			//roll the gacha x number of times
+			PullGacha(numberOfPulls);
+		}
 	}
 }
 

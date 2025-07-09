@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_g1_frog_blue_idle",
-    "path":"sprites/spr_g1_frog_blue_idle/spr_g1_frog_blue_idle.yy",
+    "name":"Mushroom_Idle",
+    "path":"sprites/Mushroom_Idle/Mushroom_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
